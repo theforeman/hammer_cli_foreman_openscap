@@ -3,10 +3,9 @@
 # This file is distributed under the same license as the hammer_cli_foreman_openscap package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: hammer_cli_foreman_openscap 0.1.4\n"
+"Project-Id-Version: hammer_cli_foreman_openscap 0.1.10\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2017-09-08 16:19-0400\n"
 "Last-Translator: Pierre-Emmanuel Dutang <dutangp@gmail.com>, 2017\n"
@@ -29,14 +28,27 @@ msgstr ""
 msgid "Manipulate Tailoring files"
 msgstr ""
 
+msgid "Manipulate Scap Content Profiles"
+msgstr ""
+
+msgid "View policies ENC for host"
+msgstr ""
+
 msgid "Id"
 msgstr "Id"
 
-msgid "Host"
-msgstr "Hôte"
-
 msgid "Reported at"
 msgstr "Rapporté le"
+
+#, fuzzy
+msgid "Host name"
+msgstr "Hôte"
+
+msgid "OpenSCAP proxy name"
+msgstr ""
+
+msgid "Policy name"
+msgstr "Nom de la politique"
 
 msgid "Passed"
 msgstr "Passé"
@@ -53,8 +65,9 @@ msgstr ""
 msgid "OpenSCAP proxy Id"
 msgstr ""
 
-msgid "OpenSCAP proxy name"
-msgstr ""
+#, fuzzy
+msgid "Policy Id"
+msgstr "Nom de la politique"
 
 msgid "ARF report deleted"
 msgstr ""
@@ -77,11 +90,39 @@ msgstr ""
 msgid "Path to directory where downloaded file will be saved"
 msgstr ""
 
-msgid "SCAP content title"
+#, fuzzy
+msgid "Profile Id"
+msgstr "Id"
+
+msgid "Content path"
 msgstr ""
 
-msgid "Policy name"
-msgstr "Nom de la politique"
+msgid "Content download path"
+msgstr ""
+
+msgid "Tailoring path"
+msgstr ""
+
+msgid "Tailoring download path"
+msgstr ""
+
+msgid "Day of month"
+msgstr ""
+
+msgid "Hour"
+msgstr ""
+
+msgid "Month"
+msgstr ""
+
+msgid "Week"
+msgstr ""
+
+msgid "OpenSCAP Proxy"
+msgstr ""
+
+msgid "SCAP content title"
+msgstr ""
 
 msgid "Name to search by"
 msgstr "Recherche par nom"
@@ -98,9 +139,6 @@ msgstr ""
 msgid "Weekday"
 msgstr ""
 
-msgid "Day of month"
-msgstr ""
-
 msgid "Cron line"
 msgstr "Ligne de cron"
 
@@ -114,6 +152,9 @@ msgid "Tailoring file Id"
 msgstr ""
 
 msgid "Tailoring file profile Id"
+msgstr ""
+
+msgid "Deployment option"
 msgstr ""
 
 msgid "Policy has been deleted"
@@ -172,6 +213,22 @@ msgstr ""
 
 msgid "Could not download the SCAP content file"
 msgstr ""
+
+#, fuzzy
+msgid "Scap Content Id"
+msgstr "Id"
+
+#, fuzzy
+msgid "Scap Content Title"
+msgstr "Titre"
+
+#, fuzzy
+msgid "Tailoring File Id"
+msgstr "Id"
+
+#, fuzzy
+msgid "Tailoring File Name"
+msgstr "Nom"
 
 msgid "Tailoring file successfully created"
 msgstr ""
