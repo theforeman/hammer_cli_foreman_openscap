@@ -3,10 +3,9 @@
 # This file is distributed under the same license as the hammer_cli_foreman_openscap package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: hammer_cli_foreman_openscap 0.1.4\n"
+"Project-Id-Version: hammer_cli_foreman_openscap 0.1.10\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2017-09-08 16:19-0400\n"
 "Last-Translator: Dominic Cleal <dominic@cleal.org>, 2017\n"
@@ -30,14 +29,27 @@ msgstr ""
 msgid "Manipulate Tailoring files"
 msgstr ""
 
+msgid "Manipulate Scap Content Profiles"
+msgstr ""
+
+msgid "View policies ENC for host"
+msgstr ""
+
 msgid "Id"
 msgstr "Id"
 
-msgid "Host"
-msgstr "主机"
-
 msgid "Reported at"
 msgstr "报告于"
+
+#, fuzzy
+msgid "Host name"
+msgstr "主机"
+
+msgid "OpenSCAP proxy name"
+msgstr ""
+
+msgid "Policy name"
+msgstr "策略名称"
 
 msgid "Passed"
 msgstr "通过"
@@ -54,8 +66,9 @@ msgstr ""
 msgid "OpenSCAP proxy Id"
 msgstr ""
 
-msgid "OpenSCAP proxy name"
-msgstr ""
+#, fuzzy
+msgid "Policy Id"
+msgstr "策略名称"
 
 msgid "ARF report deleted"
 msgstr ""
@@ -78,11 +91,39 @@ msgstr ""
 msgid "Path to directory where downloaded file will be saved"
 msgstr ""
 
-msgid "SCAP content title"
+#, fuzzy
+msgid "Profile Id"
+msgstr "Id"
+
+msgid "Content path"
 msgstr ""
 
-msgid "Policy name"
-msgstr "策略名称"
+msgid "Content download path"
+msgstr ""
+
+msgid "Tailoring path"
+msgstr ""
+
+msgid "Tailoring download path"
+msgstr ""
+
+msgid "Day of month"
+msgstr ""
+
+msgid "Hour"
+msgstr ""
+
+msgid "Month"
+msgstr ""
+
+msgid "Week"
+msgstr ""
+
+msgid "OpenSCAP Proxy"
+msgstr ""
+
+msgid "SCAP content title"
+msgstr ""
 
 msgid "Name to search by"
 msgstr "根据其进行搜索的名称"
@@ -99,9 +140,6 @@ msgstr ""
 msgid "Weekday"
 msgstr ""
 
-msgid "Day of month"
-msgstr ""
-
 msgid "Cron line"
 msgstr "Cron 行"
 
@@ -115,6 +153,9 @@ msgid "Tailoring file Id"
 msgstr ""
 
 msgid "Tailoring file profile Id"
+msgstr ""
+
+msgid "Deployment option"
 msgstr ""
 
 msgid "Policy has been deleted"
@@ -173,6 +214,22 @@ msgstr ""
 
 msgid "Could not download the SCAP content file"
 msgstr ""
+
+#, fuzzy
+msgid "Scap Content Id"
+msgstr "Id"
+
+#, fuzzy
+msgid "Scap Content Title"
+msgstr "标题"
+
+#, fuzzy
+msgid "Tailoring File Id"
+msgstr "Id"
+
+#, fuzzy
+msgid "Tailoring File Name"
+msgstr "名称"
 
 msgid "Tailoring file successfully created"
 msgstr ""

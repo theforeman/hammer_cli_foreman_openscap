@@ -5,7 +5,7 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: hammer_cli_foreman_openscap 0.1.4\n"
+"Project-Id-Version: hammer_cli_foreman_openscap 0.1.10\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2017-09-08 15:57-0400\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -29,13 +29,25 @@ msgstr ""
 msgid "Manipulate Tailoring files"
 msgstr ""
 
+msgid "Manipulate Scap Content Profiles"
+msgstr ""
+
+msgid "View policies ENC for host"
+msgstr ""
+
 msgid "Id"
 msgstr ""
 
-msgid "Host"
+msgid "Reported at"
 msgstr ""
 
-msgid "Reported at"
+msgid "Host name"
+msgstr ""
+
+msgid "OpenSCAP proxy name"
+msgstr ""
+
+msgid "Policy name"
 msgstr ""
 
 msgid "Passed"
@@ -53,7 +65,7 @@ msgstr ""
 msgid "OpenSCAP proxy Id"
 msgstr ""
 
-msgid "OpenSCAP proxy name"
+msgid "Policy Id"
 msgstr ""
 
 msgid "ARF report deleted"
@@ -77,10 +89,37 @@ msgstr ""
 msgid "Path to directory where downloaded file will be saved"
 msgstr ""
 
-msgid "SCAP content title"
+msgid "Profile Id"
 msgstr ""
 
-msgid "Policy name"
+msgid "Content path"
+msgstr ""
+
+msgid "Content download path"
+msgstr ""
+
+msgid "Tailoring path"
+msgstr ""
+
+msgid "Tailoring download path"
+msgstr ""
+
+msgid "Day of month"
+msgstr ""
+
+msgid "Hour"
+msgstr ""
+
+msgid "Month"
+msgstr ""
+
+msgid "Week"
+msgstr ""
+
+msgid "OpenSCAP Proxy"
+msgstr ""
+
+msgid "SCAP content title"
 msgstr ""
 
 msgid "Name to search by"
@@ -98,9 +137,6 @@ msgstr ""
 msgid "Weekday"
 msgstr ""
 
-msgid "Day of month"
-msgstr ""
-
 msgid "Cron line"
 msgstr ""
 
@@ -114,6 +150,9 @@ msgid "Tailoring file Id"
 msgstr ""
 
 msgid "Tailoring file profile Id"
+msgstr ""
+
+msgid "Deployment option"
 msgstr ""
 
 msgid "Policy has been deleted"
@@ -171,6 +210,18 @@ msgid "SCAP content file downloaded, saved to: "
 msgstr ""
 
 msgid "Could not download the SCAP content file"
+msgstr ""
+
+msgid "Scap Content Id"
+msgstr ""
+
+msgid "Scap Content Title"
+msgstr ""
+
+msgid "Tailoring File Id"
+msgstr ""
+
+msgid "Tailoring File Name"
 msgstr ""
 
 msgid "Tailoring file successfully created"
