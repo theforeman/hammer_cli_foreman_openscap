@@ -46,6 +46,15 @@
     }
   end
 
+  def self.oval_content
+    {
+      :id => 77,
+      :name => 'Ansible 2.7',
+      :original_filename => 'ansible-2.7.oval.xml.bz2',
+      :url => 'https://content-source/ansible-2.7.oval.xml.bz2'
+    }
+  end
+
 
   def self.arf_reports_list
     ResourceMocks.mock_action_call(:arf_reports, :index, [arf])
@@ -61,5 +70,9 @@
 
   def self.tailoring_files_list
     ResourceMocks.mock_action_call(:tailoring_files, :index, [tailoring_file])
+  end
+
+  def self.oval_contents_list
+    ResourceMocks.mock_action_call(:oval_contents, :index, [oval_content])
   end
 end

@@ -9,6 +9,12 @@ module HammerCLIForemanOpenscap
           super path
         end
       end
+
+      class BinaryFile < HammerCLI::Options::Normalizers::File
+        def format(path)
+          ::File.new(::File.expand_path(path), 'rb')
+        end
+      end
     end
   end
 end
