@@ -55,6 +55,17 @@
     }
   end
 
+  def self.oval_policy
+    {
+      :id => 52,
+      :name => 'Oval policy',
+      :period => 'custom',
+      :weekday => nil,
+      :day_of_month => nil,
+      :cron_line => '5 5 5 5 5',
+      :oval_content_id => 44
+    }
+  end
 
   def self.arf_reports_list
     ResourceMocks.mock_action_call(:arf_reports, :index, [arf])
@@ -74,5 +85,9 @@
 
   def self.oval_contents_list
     ResourceMocks.mock_action_call(:oval_contents, :index, [oval_content])
+  end
+
+  def self.oval_policies_list
+    ResourceMocks.mock_action_call(:oval_policies, :index, [oval_policy])
   end
 end

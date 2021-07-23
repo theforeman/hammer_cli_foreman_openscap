@@ -9,6 +9,7 @@ require 'hammer_cli_foreman_openscap/hostgroup'
 require 'hammer_cli_foreman_openscap/host'
 require 'hammer_cli_foreman_openscap/scap_content_profile'
 require 'hammer_cli_foreman_openscap/oval_content'
+require 'hammer_cli_foreman_openscap/oval_policy'
 
 module HammerCLIForemanOpenscap
   require 'hammer_cli_foreman_openscap/version'
@@ -44,4 +45,8 @@ module HammerCLIForemanOpenscap
   HammerCLI::MainCommand.lazy_subcommand("oval-content", _("Manipulate OVAL contents"),
                                          "HammerCLIForemanOpenscap::OvalContent",
                                          "hammer_cli_foreman_openscap/oval_content")
+  HammerCLI::MainCommand.lazy_subcommand("oval-policy", _("Manipulate OVAL policies"),
+                                         "HammerCLIForemanOpenscap::OvalPolicy",
+                                         "hammer_cli_foreman_openscap/oval_policy")
+
 end
