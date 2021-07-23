@@ -17,13 +17,13 @@ all depending on your setup.
 * rvm
 * foreman
 
-###Steps
+### Steps
 
 First, cd into the directory where your projects will live. Then clone everything.
 
 ```bash
 git clone https://github.com/theforeman/hammer-cli-foreman.git
-git clone https://github.com/xprazak2/hammer_cli_foreman_openscap.git
+git clone https://github.com/theforeman/hammer_cli_foreman_openscap.git
 ```
 
 Before we bundle, we need to setup our local Gemfile. Edit `Gemfile.local.rb` in your hammer_cli_foreman_openscap directory to point to the local projects instead of using the gems. Enter the following:
