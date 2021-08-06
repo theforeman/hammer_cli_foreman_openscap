@@ -1,4 +1,4 @@
-ENV['TEST_API_VERSION'] = '1.15'
+ENV['TEST_API_VERSION'] = '2.4'
 FOREMAN_OPENSCAP_VERSION = Gem::Version.new(ENV['TEST_API_VERSION'])
 
 require 'minitest/autorun'
