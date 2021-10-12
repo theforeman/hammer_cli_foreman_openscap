@@ -27,6 +27,15 @@ module HammerCLIForemanOpenscap
     end
   end
 
+  class AssignCommand < HammerCLIForeman::Command
+    include HammerCLIForemanOpenscap::ResolverCommons
+
+    def print_data(data, opts = {})
+      self.class.success_message(data) if data.is_a? String
+      super data, opts
+    end
+  end
+
   class UpdateCommand < HammerCLIForeman::UpdateCommand
     include HammerCLIForemanOpenscap::ResolverCommons
   end
