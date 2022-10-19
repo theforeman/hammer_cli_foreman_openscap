@@ -8,7 +8,7 @@ Gem::Specification.new do |s|
   s.version = HammerCLIForemanOpenscap.version.dup
   s.platform = Gem::Platform::RUBY
   s.summary = %q{Foreman OpenSCAP commands for Hammer}
-  s.license = "GPL-3"
+  s.license = "GPL-3.0"
   s.files = Dir['{lib,config,locale}/**/*', 'LICENSE', 'README.md']
   s.require_paths = ["lib"]
   s.test_files = Dir["test/**/*"]
