@@ -51,8 +51,6 @@ module HammerCLIForemanOpenscap
       action :assign_hosts
       command_name 'assign-hosts'
 
-      option '--host-ids', 'HOST_IDS', _("IDs of hosts to assign"), :format => HammerCLI::Options::Normalizers::List.new
-
       output do
         field :title, _('Title'), Fields::Field, :hide_blank => true
         field :result, _('Result'), Fields::Field, :hide_blank => true
@@ -65,8 +63,6 @@ module HammerCLIForemanOpenscap
     class AssignHostgroups < HammerCLIForemanOpenscap::AssignCommand
       action :assign_hostgroups
       command_name 'assign-hostgroups'
-
-      option '--hostgroup-ids', 'HOSTGROUP_IDS', _("IDs of hostgroups to assign"), :format => HammerCLI::Options::Normalizers::List.new
 
       output do
         field :title, _('Title'), Fields::Field, :hide_blank => true
