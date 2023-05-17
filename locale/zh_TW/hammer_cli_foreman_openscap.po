@@ -5,7 +5,7 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: hammer_cli_foreman_openscap 0.1.10\n"
+"Project-Id-Version: hammer_cli_foreman_openscap 0.1.13\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2017-09-08 16:19-0400\n"
 "Last-Translator: Dominic Cleal <dominic@cleal.org>, 2017\n"
@@ -33,6 +33,12 @@ msgid "Manipulate Scap Content Profiles"
 msgstr ""
 
 msgid "View policies ENC for host"
+msgstr ""
+
+msgid "Manipulate OVAL contents"
+msgstr ""
+
+msgid "Manipulate OVAL policies"
 msgstr ""
 
 msgid "Id"
@@ -91,6 +97,12 @@ msgstr ""
 msgid "Path to directory where downloaded file will be saved"
 msgstr ""
 
+msgid "Response success but empty body was returned - file was not saved"
+msgstr ""
+
+msgid "Cannot save file: %s does not exist"
+msgstr ""
+
 #, fuzzy
 msgid "Profile Id"
 msgstr "ID"
@@ -125,14 +137,58 @@ msgstr ""
 msgid "SCAP content title"
 msgstr ""
 
+#, fuzzy
+msgid "Tailoring file name"
+msgstr "名稱"
+
 msgid "Name to search by"
 msgstr "欲使用來進行搜尋的名稱"
 
 msgid "Name"
 msgstr "名稱"
 
+msgid "Original filename"
+msgstr ""
+
+msgid "URL"
+msgstr ""
+
 msgid "Created at"
 msgstr "建立於"
+
+msgid "Digest"
+msgstr ""
+
+msgid "OVAL Content has been deleted"
+msgstr ""
+
+msgid "Could not delete the OVAL content"
+msgstr ""
+
+msgid "OVAL Content successfully created"
+msgstr ""
+
+#, fuzzy
+msgid "Failed to create OVAL content"
+msgstr "失敗"
+
+msgid "OVAL content file"
+msgstr ""
+
+msgid "SCAP content updated"
+msgstr ""
+
+msgid "Could not update SCAP content"
+msgstr ""
+
+msgid "OVAL contents synced with remote sources"
+msgstr ""
+
+msgid "Could not sync OVAL contents"
+msgstr ""
+
+msgid "Full messages"
+msgstr ""
 
 msgid "Period"
 msgstr ""
@@ -142,6 +198,37 @@ msgstr ""
 
 msgid "Cron line"
 msgstr "Cron 行"
+
+#, fuzzy
+msgid "OVAL content Id"
+msgstr "ID"
+
+msgid "OVAL policy has been deleted"
+msgstr ""
+
+msgid "Could not delete the OVAL policy"
+msgstr ""
+
+msgid "OVAL policy created"
+msgstr ""
+
+msgid "Could not create the OVAL policy"
+msgstr ""
+
+msgid "OVAL policy updated"
+msgstr ""
+
+msgid "Could not update the OVAL policy"
+msgstr ""
+
+msgid "Title"
+msgstr "提示"
+
+msgid "Result"
+msgstr ""
+
+msgid "Error Message"
+msgstr ""
 
 msgid "SCAP content Id"
 msgstr ""
@@ -176,9 +263,6 @@ msgstr ""
 msgid "Could not update the policy"
 msgstr ""
 
-msgid "Title"
-msgstr "提示"
-
 msgid "SCAP content successfully created"
 msgstr ""
 
@@ -188,25 +272,31 @@ msgstr ""
 msgid "SCAP content file"
 msgstr ""
 
+msgid "Scap Contents uploaded."
+msgstr ""
+
+msgid "Could not upload Scap Contents"
+msgstr ""
+
+msgid "Errors"
+msgstr ""
+
+msgid "Uploaded Scap Contents"
+msgstr ""
+
+msgid "Original Filename"
+msgstr ""
+
 msgid "SCAP content deleted"
 msgstr ""
 
 msgid "Could not delete SCAP content"
 msgstr ""
 
-msgid "Original filename"
-msgstr ""
-
 msgid "SCAP content profiles"
 msgstr ""
 
 msgid "Profile id"
-msgstr ""
-
-msgid "SCAP content updated"
-msgstr ""
-
-msgid "Could not update SCAP content"
 msgstr ""
 
 msgid "SCAP content file downloaded, saved to: "

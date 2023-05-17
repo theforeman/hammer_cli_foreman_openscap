@@ -1,20 +1,21 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# English translations for hammer_cli_foreman_openscap package.
+# Copyright (C) 2023 THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the hammer_cli_foreman_openscap package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: hammer_cli_foreman_openscap 0.1.13\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2017-09-08 16:19-0400\n"
-"Last-Translator: Pierre-Emmanuel Dutang <dutangp@gmail.com>, 2017\n"
-"Language-Team: French (https://www.transifex.com/foreman/teams/114/fr/)\n"
+"PO-Revision-Date: 2023-05-17 08:35+0200\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: English\n"
+"Language: en_GB\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: fr\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Plural-Forms: nplurals=; plural=;\n"
+"\n"
 
 msgid "Manipulate compliance reports"
 msgstr ""
@@ -41,29 +42,28 @@ msgid "Manipulate OVAL policies"
 msgstr ""
 
 msgid "Id"
-msgstr "Id"
+msgstr ""
 
 msgid "Reported at"
-msgstr "Rapporté le"
+msgstr ""
 
-#, fuzzy
 msgid "Host name"
-msgstr "Hôte"
+msgstr ""
 
 msgid "OpenSCAP proxy name"
 msgstr ""
 
 msgid "Policy name"
-msgstr "Nom de la politique"
+msgstr ""
 
 msgid "Passed"
-msgstr "Passé"
+msgstr ""
 
 msgid "Failed"
-msgstr "Échoué"
+msgstr ""
 
 msgid "Othered"
-msgstr "Altéré"
+msgstr ""
 
 msgid "Host Id"
 msgstr ""
@@ -71,9 +71,8 @@ msgstr ""
 msgid "OpenSCAP proxy Id"
 msgstr ""
 
-#, fuzzy
 msgid "Policy Id"
-msgstr "Nom de la politique"
+msgstr ""
 
 msgid "ARF report deleted"
 msgstr ""
@@ -102,9 +101,8 @@ msgstr ""
 msgid "Cannot save file: %s does not exist"
 msgstr ""
 
-#, fuzzy
 msgid "Profile Id"
-msgstr "Id"
+msgstr ""
 
 msgid "Content path"
 msgstr ""
@@ -136,15 +134,14 @@ msgstr ""
 msgid "SCAP content title"
 msgstr ""
 
-#, fuzzy
 msgid "Tailoring file name"
-msgstr "Nom"
+msgstr ""
 
 msgid "Name to search by"
-msgstr "Recherche par nom"
+msgstr ""
 
 msgid "Name"
-msgstr "Nom"
+msgstr ""
 
 msgid "Original filename"
 msgstr ""
@@ -153,7 +150,7 @@ msgid "URL"
 msgstr ""
 
 msgid "Created at"
-msgstr "Créé le"
+msgstr ""
 
 msgid "Digest"
 msgstr ""
@@ -167,9 +164,8 @@ msgstr ""
 msgid "OVAL Content successfully created"
 msgstr ""
 
-#, fuzzy
 msgid "Failed to create OVAL content"
-msgstr "Échoué"
+msgstr ""
 
 msgid "OVAL content file"
 msgstr ""
@@ -196,11 +192,10 @@ msgid "Weekday"
 msgstr ""
 
 msgid "Cron line"
-msgstr "Ligne de cron"
+msgstr ""
 
-#, fuzzy
 msgid "OVAL content Id"
-msgstr "Id"
+msgstr ""
 
 msgid "OVAL policy has been deleted"
 msgstr ""
@@ -221,7 +216,7 @@ msgid "Could not update the OVAL policy"
 msgstr ""
 
 msgid "Title"
-msgstr "Titre"
+msgstr ""
 
 msgid "Result"
 msgstr ""
@@ -304,21 +299,17 @@ msgstr ""
 msgid "Could not download the SCAP content file"
 msgstr ""
 
-#, fuzzy
 msgid "Scap Content Id"
-msgstr "Id"
+msgstr ""
 
-#, fuzzy
 msgid "Scap Content Title"
-msgstr "Titre"
+msgstr ""
 
-#, fuzzy
 msgid "Tailoring File Id"
-msgstr "Id"
+msgstr ""
 
-#, fuzzy
 msgid "Tailoring File Name"
-msgstr "Nom"
+msgstr ""
 
 msgid "Tailoring file successfully created"
 msgstr ""

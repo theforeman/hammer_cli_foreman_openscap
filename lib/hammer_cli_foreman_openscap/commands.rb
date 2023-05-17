@@ -93,14 +93,14 @@ module HammerCLIForemanOpenscap
 
     def print_data(response)
       if response.body.empty?
-        print_message "Response success but empty body was returned - file was not saved"
+        print_message _("Response success but empty body was returned - file was not saved")
         return
       end
       # get file name from header, remove leading and trailing quotes
       filename = response.headers[:content_disposition].match(/filename=(.*);/)[1].chop.reverse.chop.reverse
       path = option_path.dup
       path << '/' unless path.end_with? '/'
-      raise HammerCLIForemanOpenscap::DownloadError.new "Cannot save file: #{path} does not exist" unless File.directory?(path)
+      raise HammerCLIForemanOpenscap::DownloadError.new(_("Cannot save file: %s does not exist") % path) unless File.directory?(path)
       @filepath = path + filename
       File.write(@filepath, response.body)
       print_success_message(response)
