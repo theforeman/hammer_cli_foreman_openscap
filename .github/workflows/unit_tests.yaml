@@ -36,8 +36,6 @@ jobs:
       - name: Get hammer_cli_foreman_openscap
         uses: actions/checkout@v2
         with:
-          repository: theforeman/hammer_cli_foreman_openscap
-          ref: master
           path: hammer_cli_foreman_openscap
       - name: Configure local gem dependencies
         run: |
