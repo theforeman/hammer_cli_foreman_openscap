@@ -4,8 +4,9 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 # Translators:
-# Bryan Kearney <bryan.kearney@gmail.com>, 2017
-# 0868a4d1af5275b3f70b0a6dac4c99a4, 2020
+# 0868a4d1af5275b3f70b0a6dac4c99a4, 2017
+# Bryan Kearney <bryan.kearney@gmail.com>, 2020
+# Amit Upadhye <aupadhye@redhat.com>, 2022
 #
 #, fuzzy
 msgid ""
@@ -14,250 +15,252 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-05-22 19:15+0530\n"
 "PO-Revision-Date: 2017-12-01 20:56+0000\n"
-"Last-Translator: 0868a4d1af5275b3f70b0a6dac4c99a4, 2020\n"
-"Language-Team: Korean (https://app.transifex.com/foreman/teams/114/ko/)\n"
+"Last-Translator: Amit Upadhye <aupadhye@redhat.com>, 2022\n"
+"Language-Team: Portuguese (Brazil) (https://app.transifex.com/foreman/"
+"teams/114/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ko\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: pt_BR\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % "
+"1000000 == 0 ? 1 : 2;\n"
 
 msgid "Manipulate compliance reports"
-msgstr ""
+msgstr "Manipular relatórios de conformidade"
 
 msgid "Manipulate policies"
-msgstr ""
+msgstr "Manipular políticas"
 
 msgid "Manipulate SCAP contents"
-msgstr ""
+msgstr "Manipular conteúdo SCAP"
 
 msgid "Manipulate Tailoring files"
-msgstr ""
+msgstr "Manipular arquivos de personalização"
 
 msgid "Manipulate Scap Content Profiles"
-msgstr ""
+msgstr "Manipular Perfis de Conteúdo de Scap"
 
 msgid "View policies ENC for host"
-msgstr ""
+msgstr "Veja as políticas ENC para o anfitrião"
 
 msgid "Id"
-msgstr "ID "
+msgstr "Id"
 
 msgid "Reported at"
-msgstr "보고 "
+msgstr "Relatar em"
 
 msgid "Host name"
-msgstr "호스트 이름 "
+msgstr "Nome do host"
 
 msgid "OpenSCAP proxy name"
-msgstr ""
+msgstr "Nome de proxy do OpenSCAP"
 
 msgid "Policy name"
-msgstr "정책 이름"
+msgstr "Nome da política "
 
 msgid "Passed"
-msgstr "통과됨"
+msgstr "Aprovado(s)"
 
 msgid "Failed"
-msgstr "실패 "
+msgstr "Falhou"
 
 msgid "Othered"
-msgstr "제외됨"
+msgstr "Outros"
 
 msgid "Host Id"
-msgstr ""
+msgstr "ID de host"
 
 msgid "OpenSCAP proxy Id"
-msgstr ""
+msgstr "ID de proxy do OpenSCAP"
 
 msgid "Policy Id"
-msgstr ""
+msgstr "Identificação da política"
 
 msgid "ARF report deleted"
-msgstr ""
+msgstr "Relatório ARF excluído"
 
 msgid "Could not delete the ARF report"
-msgstr ""
+msgstr "Não foi possível excluir o relatório ARF"
 
 msgid "ARF report downloaded, saved to: "
-msgstr ""
+msgstr "Relatório ARF baixado e salvo em:"
 
 msgid "Could not download the ARF report"
-msgstr ""
+msgstr "Não foi possível fazer download do relatório ARF"
 
 msgid "ARF report in HTML downloaded, saved to: "
-msgstr ""
+msgstr "O relatório ARF em HTML foi baixado e salvo em:"
 
 msgid "Could not download the ARF report in HTML"
-msgstr ""
+msgstr "Não foi possível fazer download do relatório ARF em HTML:"
 
 msgid "Path to directory where downloaded file will be saved"
-msgstr ""
+msgstr "Caminho do diretório no qual o arquivo baixado será salvo"
 
 msgid "Profile Id"
-msgstr ""
+msgstr "Identificação do perfil"
 
 msgid "Content path"
-msgstr ""
+msgstr "Caminho do conteúdo"
 
 msgid "Content download path"
-msgstr ""
+msgstr "Caminho para download do conteúdo"
 
 msgid "Tailoring path"
-msgstr ""
+msgstr "Caminho da alfaiataria"
 
 msgid "Tailoring download path"
-msgstr ""
+msgstr "Caminho de download sob medida"
 
 msgid "Day of month"
-msgstr ""
+msgstr "Dia do mês"
 
 msgid "Hour"
-msgstr ""
+msgstr "Hora"
 
 msgid "Month"
-msgstr ""
+msgstr "Mês"
 
 msgid "Week"
-msgstr ""
+msgstr "Semana"
 
 msgid "OpenSCAP Proxy"
-msgstr ""
+msgstr "Proxy OpenSCAP"
 
 msgid "SCAP content title"
-msgstr ""
+msgstr "Título do conteúdo SCAP"
 
 msgid "Name to search by"
-msgstr "검색할 이름 "
+msgstr "Nome a ser pesquisado"
 
 msgid "Name"
-msgstr "이름"
+msgstr "Nome"
 
 msgid "Created at"
-msgstr "생성 일시 "
+msgstr "Criado Em"
 
 msgid "Period"
-msgstr ""
+msgstr "Período"
 
 msgid "Weekday"
-msgstr ""
+msgstr "Dia útil"
 
 msgid "Cron line"
-msgstr "Cron 줄"
+msgstr "Cron line"
 
 msgid "SCAP content Id"
-msgstr ""
+msgstr "ID de conteúdo SCAP"
 
 msgid "SCAP Content profile Id"
-msgstr ""
+msgstr "ID de perfil de conteúdo SCAP"
 
 msgid "Tailoring file Id"
-msgstr ""
+msgstr "ID do arquivo de personalização"
 
 msgid "Tailoring file profile Id"
-msgstr ""
+msgstr "ID do perfil do arquivo de personalização"
 
 msgid "Deployment option"
-msgstr ""
+msgstr "Opção de implantação"
 
 msgid "Policy has been deleted"
-msgstr ""
+msgstr "A política foi excluída"
 
 msgid "Could not delete the policy"
-msgstr ""
+msgstr "Não foi possível excluir a política"
 
 msgid "Policy created"
-msgstr ""
+msgstr "Política criada"
 
 msgid "Could not create the policy"
-msgstr ""
+msgstr "Não foi possível criar a política"
 
 msgid "Policy updated"
-msgstr ""
+msgstr "Política atualizada"
 
 msgid "Could not update the policy"
-msgstr ""
+msgstr "Não foi possível atualizar a política"
 
 msgid "Title"
-msgstr "제목"
+msgstr "Título"
 
 msgid "SCAP content successfully created"
-msgstr ""
+msgstr "Conteúdo SCAP criado com êxito"
 
 msgid "Failed to create SCAP content"
-msgstr ""
+msgstr "Falha ao criar conteúdo SCAP"
 
 msgid "SCAP content file"
-msgstr ""
+msgstr "Arquivo de conteúdo SCAP"
 
 msgid "SCAP content deleted"
-msgstr ""
+msgstr "Conteúdo SCAP excluído"
 
 msgid "Could not delete SCAP content"
-msgstr ""
+msgstr "Não foi possível excluir o conteúdo SCAP"
 
 msgid "Original filename"
-msgstr ""
+msgstr "Nome do arquivo original"
 
 msgid "SCAP content profiles"
-msgstr ""
+msgstr "Perfis de conteúdo SCAP"
 
 msgid "Profile id"
-msgstr ""
+msgstr "ID de perfil"
 
 msgid "SCAP content updated"
-msgstr ""
+msgstr "Conteúdo SCAP atualizado"
 
 msgid "Could not update SCAP content"
-msgstr ""
+msgstr "Não foi possível atualizar o conteúdo SCAP"
 
 msgid "SCAP content file downloaded, saved to: "
-msgstr ""
+msgstr "Arquivo de conteúdo SCAP baixado e salvo em:"
 
 msgid "Could not download the SCAP content file"
-msgstr ""
+msgstr "Não foi possível fazer download do arquivo de conteúdo SCAP"
 
 msgid "Scap Content Id"
-msgstr ""
+msgstr "Identificação do conteúdo do Scap"
 
 msgid "Scap Content Title"
-msgstr ""
+msgstr "Título do conteúdo do Scap"
 
 msgid "Tailoring File Id"
-msgstr ""
+msgstr "Personalização de arquivo de identificação"
 
 msgid "Tailoring File Name"
-msgstr ""
+msgstr "Nome do arquivo sob medida"
 
 msgid "Tailoring file successfully created"
-msgstr ""
+msgstr "Arquivo de personalização criado com êxito"
 
 msgid "Failed to create Tailoring file"
-msgstr ""
+msgstr "Falha ao criar arquivo de personalização"
 
 msgid "Tailoring file content"
-msgstr ""
+msgstr "Conteúdo do arquivo de personalização"
 
 msgid "Tailoring file deleted"
-msgstr ""
+msgstr "Arquivo de personalização excluído"
 
 msgid "Could not delete Tailoring file"
-msgstr ""
+msgstr "Não foi possível excluir o arquivo de personalização"
 
 msgid "Tailoring file profiles"
-msgstr ""
+msgstr "Personalização dos perfis do arquivo"
 
 msgid "Tailoring file updated"
-msgstr ""
+msgstr "Arquivo de personalização atualizado"
 
 msgid "Could not update Tailoring file"
-msgstr ""
+msgstr "Não foi possível atualizar o arquivo de personalização"
 
 msgid "Tailoring file downloaded, saved to: "
-msgstr ""
+msgstr "Arquivo de personalização baixado e salvo em:"
 
 msgid "Could not download the Tailoring file"
-msgstr ""
+msgstr "Não foi possível fazer download do arquivo de personalização"
 
 msgid "Manipulate OVAL contents"
 msgstr ""
