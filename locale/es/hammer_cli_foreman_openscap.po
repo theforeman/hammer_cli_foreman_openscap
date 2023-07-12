@@ -3,36 +3,47 @@
 # This file is distributed under the same license as the hammer_cli_foreman_openscap package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
+# Translators:
+# fe37ea014ea122db60df81cd86b163af_742ef71 <ba9f59c06b0be83ac3724b1834a4c14b_93939>, 2017
+# mbacovsky <martin.bacovsky@gmail.com>, 2017
+# francis <hackgo@gmail.com>, 2017
+# Sergio Ocón-Cárdenas <sergio.ocon@redhat.com>, 2017
+# Bryan Kearney <bryan.kearney@gmail.com>, 2020
+# Amit Upadhye <aupadhye@redhat.com>, 2022
+#
+#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: hammer_cli_foreman_openscap 0.1.10\n"
+"Project-Id-Version: hammer_cli_foreman_openscap 0.1.13\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2017-09-08 16:19-0400\n"
-"Last-Translator: francis <hackgo@gmail.com>, 2017\n"
-"Language-Team: Spanish (https://www.transifex.com/foreman/teams/114/es/)\n"
+"POT-Creation-Date: 2020-05-22 19:15+0530\n"
+"PO-Revision-Date: 2017-12-01 20:56+0000\n"
+"Last-Translator: Amit Upadhye <aupadhye@redhat.com>, 2022\n"
+"Language-Team: Spanish (https://app.transifex.com/foreman/teams/114/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: es\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? "
+"1 : 2;\n"
 
 msgid "Manipulate compliance reports"
-msgstr ""
+msgstr "Manipular informes de cumplimiento"
 
 msgid "Manipulate policies"
-msgstr ""
+msgstr "Manipular políticas"
 
 msgid "Manipulate SCAP contents"
-msgstr ""
+msgstr "Manipular contenidos de SCAP"
 
 msgid "Manipulate Tailoring files"
-msgstr ""
+msgstr "Manipular archivos de personalización"
 
 msgid "Manipulate Scap Content Profiles"
-msgstr ""
+msgstr "Manipular perfiles de contenido Scap"
 
 msgid "View policies ENC for host"
-msgstr ""
+msgstr "Ver políticas ENC para el anfitrión"
 
 msgid "Id"
 msgstr "ID"
@@ -40,12 +51,11 @@ msgstr "ID"
 msgid "Reported at"
 msgstr "Reportado en"
 
-#, fuzzy
 msgid "Host name"
-msgstr "host"
+msgstr "Nombre del sistema"
 
 msgid "OpenSCAP proxy name"
-msgstr ""
+msgstr "Nombre de proxy OpenSCAP"
 
 msgid "Policy name"
 msgstr "Nombre de la política"
@@ -60,69 +70,67 @@ msgid "Othered"
 msgstr "Distinto"
 
 msgid "Host Id"
-msgstr ""
+msgstr "Id de host"
 
 msgid "OpenSCAP proxy Id"
-msgstr ""
+msgstr "Id de proxy OpenSCAP"
 
-#, fuzzy
 msgid "Policy Id"
-msgstr "Nombre de la política"
+msgstr "Política Id"
 
 msgid "ARF report deleted"
-msgstr ""
+msgstr "Informe ARF eliminado"
 
 msgid "Could not delete the ARF report"
-msgstr ""
+msgstr "No se pudo eliminar el informe ARF"
 
 msgid "ARF report downloaded, saved to: "
-msgstr ""
+msgstr "Informe ARF descargado y guardado en: "
 
 msgid "Could not download the ARF report"
-msgstr ""
+msgstr "No se pudo descargar el informe ARF"
 
 msgid "ARF report in HTML downloaded, saved to: "
-msgstr ""
+msgstr "Informe ARF en HTML descargado y guardado en: "
 
 msgid "Could not download the ARF report in HTML"
-msgstr ""
+msgstr "No se pudo descargar el informe ARF en HTML"
 
 msgid "Path to directory where downloaded file will be saved"
-msgstr ""
+msgstr "Ruta al directorio donde se guardará el archivo descargado"
 
-#, fuzzy
 msgid "Profile Id"
-msgstr "ID"
+msgstr "Id de perfil"
 
 msgid "Content path"
-msgstr ""
+msgstr "Contenido"
 
 msgid "Content download path"
-msgstr ""
+msgstr "Ruta de descarga de contenidos"
 
 msgid "Tailoring path"
-msgstr ""
+msgstr "Trayectoria de adaptación"
 
 msgid "Tailoring download path"
-msgstr ""
+msgstr "Adaptación de la ruta de descarga"
 
 msgid "Day of month"
-msgstr ""
+msgstr "Día del mes"
 
 msgid "Hour"
-msgstr ""
+msgstr "Hora"
 
 msgid "Month"
-msgstr ""
+msgstr "Mes"
 
 msgid "Week"
-msgstr ""
+msgstr "Semana"
 
 msgid "OpenSCAP Proxy"
-msgstr ""
+msgstr "Proxy de OpenSCAP"
 
 msgid "SCAP content title"
-msgstr ""
+msgstr "Título de contenido de SCAP"
 
 msgid "Name to search by"
 msgstr "Nombre a buscar"
@@ -134,128 +142,202 @@ msgid "Created at"
 msgstr "Creado"
 
 msgid "Period"
-msgstr ""
+msgstr "Periodo"
 
 msgid "Weekday"
-msgstr ""
+msgstr "Día de la semana"
 
 msgid "Cron line"
 msgstr "Línea Cron"
 
 msgid "SCAP content Id"
-msgstr ""
+msgstr "Id de contenido de SCAP"
 
 msgid "SCAP Content profile Id"
-msgstr ""
+msgstr "Id de perfil de contenido de SCAP"
 
 msgid "Tailoring file Id"
-msgstr ""
+msgstr "Id de archivo de personalización"
 
 msgid "Tailoring file profile Id"
-msgstr ""
+msgstr "Id de perfil de archivo de personalización"
 
 msgid "Deployment option"
-msgstr ""
+msgstr "Opción de despliegue"
 
 msgid "Policy has been deleted"
-msgstr ""
+msgstr "La política se ha eliminado"
 
 msgid "Could not delete the policy"
-msgstr ""
+msgstr "No se pudo eliminar la política"
 
 msgid "Policy created"
-msgstr ""
+msgstr "Política creada"
 
 msgid "Could not create the policy"
-msgstr ""
+msgstr "No se pudo crear la política"
 
 msgid "Policy updated"
-msgstr ""
+msgstr "Política actualizada"
 
 msgid "Could not update the policy"
-msgstr ""
+msgstr "No se pudo actualizar la política"
 
 msgid "Title"
 msgstr "Título"
 
 msgid "SCAP content successfully created"
-msgstr ""
+msgstr "Contenido de SCAP creado correctamente"
 
 msgid "Failed to create SCAP content"
-msgstr ""
+msgstr "No se pudo crear el contenido de SCAP"
 
 msgid "SCAP content file"
-msgstr ""
+msgstr "Archivo de contenido de SCAP"
 
 msgid "SCAP content deleted"
-msgstr ""
+msgstr "Contenido de SCAP eliminado"
 
 msgid "Could not delete SCAP content"
-msgstr ""
+msgstr "No se pudo eliminar el contenido de SCAP"
 
 msgid "Original filename"
-msgstr ""
+msgstr "Nombre de archivo original"
 
 msgid "SCAP content profiles"
-msgstr ""
+msgstr "Perfiles de contenido de SCAP"
 
 msgid "Profile id"
-msgstr ""
+msgstr "Id de perfil"
 
 msgid "SCAP content updated"
-msgstr ""
+msgstr "Contenido de SCAP actualizado"
 
 msgid "Could not update SCAP content"
-msgstr ""
+msgstr "No se pudo actualizar el contenido de SCAP"
 
 msgid "SCAP content file downloaded, saved to: "
-msgstr ""
+msgstr "Archivo de contenido de SCAP descargado y guardado en:"
 
 msgid "Could not download the SCAP content file"
-msgstr ""
+msgstr "No se pudo descargar el archivo de contenido de SCAP"
 
-#, fuzzy
 msgid "Scap Content Id"
-msgstr "ID"
+msgstr "Id. de contenido Scap"
 
-#, fuzzy
 msgid "Scap Content Title"
-msgstr "Título"
+msgstr "Scap Título del contenido"
 
-#, fuzzy
 msgid "Tailoring File Id"
-msgstr "ID"
+msgstr "Adaptación del identificador de archivo"
 
-#, fuzzy
 msgid "Tailoring File Name"
-msgstr "Nombre"
+msgstr "Sastrería Nombre de archivo"
 
 msgid "Tailoring file successfully created"
-msgstr ""
+msgstr "Archivo de personalización creado correctamente"
 
 msgid "Failed to create Tailoring file"
-msgstr ""
+msgstr "No se pudo crear el archivo de personalización"
 
 msgid "Tailoring file content"
-msgstr ""
+msgstr "Contenido del archivo de personalización"
 
 msgid "Tailoring file deleted"
-msgstr ""
+msgstr "Archivo de personalización eliminado"
 
 msgid "Could not delete Tailoring file"
-msgstr ""
+msgstr "No se pudo eliminar el archivo de personalización"
 
 msgid "Tailoring file profiles"
-msgstr ""
+msgstr "Perfiles del archivo de personalización"
 
 msgid "Tailoring file updated"
-msgstr ""
+msgstr "Archivo de personalización actualizado"
 
 msgid "Could not update Tailoring file"
-msgstr ""
+msgstr "No se pudo actualizar el archivo de personalización"
 
 msgid "Tailoring file downloaded, saved to: "
-msgstr ""
+msgstr "Archivo de personalización descargado y guardado en:"
 
 msgid "Could not download the Tailoring file"
+msgstr "No se pudo descargar el archivo de personalización"
+
+msgid "Manipulate OVAL contents"
+msgstr ""
+
+msgid "Manipulate OVAL policies"
+msgstr ""
+
+msgid "URL"
+msgstr ""
+
+msgid "Digest"
+msgstr ""
+
+msgid "OVAL Content has been deleted"
+msgstr ""
+
+msgid "Could not delete the OVAL content"
+msgstr ""
+
+msgid "OVAL Content successfully created"
+msgstr ""
+
+msgid "Failed to create OVAL content"
+msgstr ""
+
+msgid "OVAL content file"
+msgstr ""
+
+msgid "OVAL contents synced with remote sources"
+msgstr ""
+
+msgid "Could not sync OVAL contents"
+msgstr ""
+
+msgid "Full messages"
+msgstr ""
+
+msgid "OVAL content Id"
+msgstr ""
+
+msgid "OVAL policy has been deleted"
+msgstr ""
+
+msgid "Could not delete the OVAL policy"
+msgstr ""
+
+msgid "OVAL policy created"
+msgstr ""
+
+msgid "Could not create the OVAL policy"
+msgstr ""
+
+msgid "OVAL policy updated"
+msgstr ""
+
+msgid "Could not update the OVAL policy"
+msgstr ""
+
+msgid "Result"
+msgstr ""
+
+msgid "Error Message"
+msgstr ""
+
+msgid "Scap Contents uploaded."
+msgstr ""
+
+msgid "Could not upload Scap Contents"
+msgstr ""
+
+msgid "Errors"
+msgstr ""
+
+msgid "Uploaded Scap Contents"
+msgstr ""
+
+msgid "Original Filename"
 msgstr ""

@@ -3,13 +3,22 @@
 # This file is distributed under the same license as the hammer_cli_foreman_openscap package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
+# Translators:
+# Kazuki Omo <kazuki.omo@gmail.com>, 2017
+# 山田 修司 🍣 Shuji Yamada <uzy.exe@gmail.com>, 2017
+# 0868a4d1af5275b3f70b0a6dac4c99a4, 2020
+# Bryan Kearney <bryan.kearney@gmail.com>, 2020
+# Amit Upadhye <aupadhye@redhat.com>, 2022
+#
+#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: hammer_cli_foreman_openscap 0.1.10\n"
+"Project-Id-Version: hammer_cli_foreman_openscap 0.1.13\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2017-09-08 16:19-0400\n"
-"Last-Translator: Shuji Yamada <uzy.exe@gmail.com>, 2017\n"
-"Language-Team: Japanese (https://www.transifex.com/foreman/teams/114/ja/)\n"
+"POT-Creation-Date: 2020-05-22 19:15+0530\n"
+"PO-Revision-Date: 2017-12-01 20:56+0000\n"
+"Last-Translator: Amit Upadhye <aupadhye@redhat.com>, 2022\n"
+"Language-Team: Japanese (https://app.transifex.com/foreman/teams/114/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -17,22 +26,22 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 msgid "Manipulate compliance reports"
-msgstr ""
+msgstr "コンプライアンスレポートを操作します。"
 
 msgid "Manipulate policies"
-msgstr ""
+msgstr "ポリシーを操作します。"
 
 msgid "Manipulate SCAP contents"
-msgstr ""
+msgstr "SCAP コンテンツを操作します。"
 
 msgid "Manipulate Tailoring files"
-msgstr ""
+msgstr "テーラリングファイルを操作します。"
 
 msgid "Manipulate Scap Content Profiles"
-msgstr ""
+msgstr "SCAP コンテンツプロファイルを操作します。"
 
 msgid "View policies ENC for host"
-msgstr ""
+msgstr "ホストのポリシー ENC を表示します。"
 
 msgid "Id"
 msgstr "ID"
@@ -40,12 +49,11 @@ msgstr "ID"
 msgid "Reported at"
 msgstr "レポート日時"
 
-#, fuzzy
 msgid "Host name"
-msgstr "ホスト"
+msgstr "ホスト名"
 
 msgid "OpenSCAP proxy name"
-msgstr ""
+msgstr "OpenSCAP プロキシー名"
 
 msgid "Policy name"
 msgstr "ポリシー名"
@@ -60,69 +68,67 @@ msgid "Othered"
 msgstr "Othered"
 
 msgid "Host Id"
-msgstr ""
+msgstr "ホスト ID"
 
 msgid "OpenSCAP proxy Id"
-msgstr ""
+msgstr "OpenSCAP プロキシー ID"
 
-#, fuzzy
 msgid "Policy Id"
-msgstr "ポリシー名"
+msgstr "ポリシー ID"
 
 msgid "ARF report deleted"
-msgstr ""
+msgstr "ARF レポートの削除"
 
 msgid "Could not delete the ARF report"
-msgstr ""
+msgstr "ARF レポートを削除できませんでした"
 
 msgid "ARF report downloaded, saved to: "
-msgstr ""
+msgstr "ARF レポートがダウンロードされ、次の場所に保存されました: "
 
 msgid "Could not download the ARF report"
-msgstr ""
+msgstr "ARF レポートをダウンロードできませんでした"
 
 msgid "ARF report in HTML downloaded, saved to: "
-msgstr ""
+msgstr "ARF レポートが HTML 形式でダウンロードされ、次の場所に保存されました: "
 
 msgid "Could not download the ARF report in HTML"
-msgstr ""
+msgstr "HTML 形式の ARF レポートをダウンロードできませんでした"
 
 msgid "Path to directory where downloaded file will be saved"
-msgstr ""
+msgstr "ダウンロードファイルが保存されるディレクトリーへのパス"
 
-#, fuzzy
 msgid "Profile Id"
-msgstr "ID"
+msgstr "プロファイル ID"
 
 msgid "Content path"
-msgstr ""
+msgstr "コンテンツパス"
 
 msgid "Content download path"
-msgstr ""
+msgstr "コンテンツのダウンロードパス"
 
 msgid "Tailoring path"
-msgstr ""
+msgstr "テーラリングパス"
 
 msgid "Tailoring download path"
-msgstr ""
+msgstr "テーラリングのダウンロードパス"
 
 msgid "Day of month"
-msgstr ""
+msgstr "月の日付"
 
 msgid "Hour"
-msgstr ""
+msgstr "時間"
 
 msgid "Month"
-msgstr ""
+msgstr "月"
 
 msgid "Week"
-msgstr ""
+msgstr "1 週間"
 
 msgid "OpenSCAP Proxy"
-msgstr ""
+msgstr "OpenSCAP プロキシー"
 
 msgid "SCAP content title"
-msgstr ""
+msgstr "SCAP コンテンツタイトル"
 
 msgid "Name to search by"
 msgstr "検索する名前"
@@ -134,128 +140,202 @@ msgid "Created at"
 msgstr "作成:"
 
 msgid "Period"
-msgstr ""
+msgstr "期間"
 
 msgid "Weekday"
-msgstr ""
+msgstr "平日"
 
 msgid "Cron line"
-msgstr "Cron 行"
+msgstr "cron 行"
 
 msgid "SCAP content Id"
-msgstr ""
+msgstr "SCAP コンテンツ ID"
 
 msgid "SCAP Content profile Id"
-msgstr ""
+msgstr "SCAP コンテンツプロファイル ID"
 
 msgid "Tailoring file Id"
-msgstr ""
+msgstr "テーラリングファイル ID"
 
 msgid "Tailoring file profile Id"
-msgstr ""
+msgstr "テーラリングファイルのプロファイル ID"
 
 msgid "Deployment option"
-msgstr ""
+msgstr "デプロイメントオプション"
 
 msgid "Policy has been deleted"
-msgstr ""
+msgstr "ポリシーが削除されました"
 
 msgid "Could not delete the policy"
-msgstr ""
+msgstr "ポリシーを削除できませんでした"
 
 msgid "Policy created"
-msgstr ""
+msgstr "ポリシーが作成されました"
 
 msgid "Could not create the policy"
-msgstr ""
+msgstr "ポリシーを作成できませんでした"
 
 msgid "Policy updated"
-msgstr ""
+msgstr "ポリシーが更新されました"
 
 msgid "Could not update the policy"
-msgstr ""
+msgstr "ポリシーを更新できませんでした"
 
 msgid "Title"
 msgstr "タイトル"
 
 msgid "SCAP content successfully created"
-msgstr ""
+msgstr "SCAP コンテンツが正常に作成されました"
 
 msgid "Failed to create SCAP content"
-msgstr ""
+msgstr "SCAP コンテンツの作成に失敗しました"
 
 msgid "SCAP content file"
-msgstr ""
+msgstr "SCAP コンテンツファイル"
 
 msgid "SCAP content deleted"
-msgstr ""
+msgstr "SCAP コンテンツが削除されました"
 
 msgid "Could not delete SCAP content"
-msgstr ""
+msgstr "SCAP のコンテンツを削除できませんでした"
 
 msgid "Original filename"
-msgstr ""
+msgstr "オリジナルのファイル名"
 
 msgid "SCAP content profiles"
-msgstr ""
+msgstr "SCAP コンテンツプロファイル"
 
 msgid "Profile id"
-msgstr ""
+msgstr "プロファイル ID"
 
 msgid "SCAP content updated"
-msgstr ""
+msgstr "SCAP コンテンツが更新されました"
 
 msgid "Could not update SCAP content"
-msgstr ""
+msgstr "SCAP コンテンツを更新できませんでした"
 
 msgid "SCAP content file downloaded, saved to: "
-msgstr ""
+msgstr "SCAP コンテンツファイルがダウンロードされ、次の場所に保存されました: "
 
 msgid "Could not download the SCAP content file"
-msgstr ""
+msgstr "SCAP コンテンツファイルをダウンロードできませんでした"
 
-#, fuzzy
 msgid "Scap Content Id"
-msgstr "ID"
+msgstr "SCAP コンテンツ ID"
 
-#, fuzzy
 msgid "Scap Content Title"
-msgstr "タイトル"
+msgstr "SCAP コンテンツタイトル"
 
-#, fuzzy
 msgid "Tailoring File Id"
-msgstr "ID"
+msgstr "テーラリングファイル ID"
 
-#, fuzzy
 msgid "Tailoring File Name"
-msgstr "名前"
+msgstr "テーラリングファイル名"
 
 msgid "Tailoring file successfully created"
-msgstr ""
+msgstr "テーラリングファイルが正常に作成されました"
 
 msgid "Failed to create Tailoring file"
-msgstr ""
+msgstr "テーラリングファイルの作成に失敗しました"
 
 msgid "Tailoring file content"
-msgstr ""
+msgstr "テーラリングファイルのコンテンツ"
 
 msgid "Tailoring file deleted"
-msgstr ""
+msgstr "テーラリングファイルが削除されました"
 
 msgid "Could not delete Tailoring file"
-msgstr ""
+msgstr "テーラリングファイルを削除できませんでした"
 
 msgid "Tailoring file profiles"
-msgstr ""
+msgstr "テーラリングファイルのプロファイル"
 
 msgid "Tailoring file updated"
-msgstr ""
+msgstr "テーラリングファイルが更新されました"
 
 msgid "Could not update Tailoring file"
-msgstr ""
+msgstr "テーラリングファイルを更新できませんでした"
 
 msgid "Tailoring file downloaded, saved to: "
-msgstr ""
+msgstr "テーラリングファイルがダウンロードされ、次の場所に保存されました: "
 
 msgid "Could not download the Tailoring file"
+msgstr "テーラリングファイルをダウンロードできませんでした"
+
+msgid "Manipulate OVAL contents"
+msgstr ""
+
+msgid "Manipulate OVAL policies"
+msgstr ""
+
+msgid "URL"
+msgstr ""
+
+msgid "Digest"
+msgstr ""
+
+msgid "OVAL Content has been deleted"
+msgstr ""
+
+msgid "Could not delete the OVAL content"
+msgstr ""
+
+msgid "OVAL Content successfully created"
+msgstr ""
+
+msgid "Failed to create OVAL content"
+msgstr ""
+
+msgid "OVAL content file"
+msgstr ""
+
+msgid "OVAL contents synced with remote sources"
+msgstr ""
+
+msgid "Could not sync OVAL contents"
+msgstr ""
+
+msgid "Full messages"
+msgstr ""
+
+msgid "OVAL content Id"
+msgstr ""
+
+msgid "OVAL policy has been deleted"
+msgstr ""
+
+msgid "Could not delete the OVAL policy"
+msgstr ""
+
+msgid "OVAL policy created"
+msgstr ""
+
+msgid "Could not create the OVAL policy"
+msgstr ""
+
+msgid "OVAL policy updated"
+msgstr ""
+
+msgid "Could not update the OVAL policy"
+msgstr ""
+
+msgid "Result"
+msgstr ""
+
+msgid "Error Message"
+msgstr ""
+
+msgid "Scap Contents uploaded."
+msgstr ""
+
+msgid "Could not upload Scap Contents"
+msgstr ""
+
+msgid "Errors"
+msgstr ""
+
+msgid "Uploaded Scap Contents"
+msgstr ""
+
+msgid "Original Filename"
 msgstr ""

@@ -3,18 +3,26 @@
 # This file is distributed under the same license as the hammer_cli_foreman_openscap package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
+# Translators:
+# Giuseppe Pignataro <rogepix@gmail.com>, 2017
+# Bryan Kearney <bryan.kearney@gmail.com>, 2017
+# 0868a4d1af5275b3f70b0a6dac4c99a4, 2020
+#
+#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: hammer_cli_foreman_openscap 0.1.10\n"
+"Project-Id-Version: hammer_cli_foreman_openscap 0.1.13\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2017-09-08 16:19-0400\n"
-"Last-Translator: Giuseppe Pignataro (Fasbyte01) <rogepix@gmail.com>, 2017\n"
-"Language-Team: Italian (https://www.transifex.com/foreman/teams/114/it/)\n"
+"POT-Creation-Date: 2020-05-22 19:15+0530\n"
+"PO-Revision-Date: 2017-12-01 20:56+0000\n"
+"Last-Translator: 0868a4d1af5275b3f70b0a6dac4c99a4, 2020\n"
+"Language-Team: Italian (https://app.transifex.com/foreman/teams/114/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: it\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? "
+"1 : 2;\n"
 
 msgid "Manipulate compliance reports"
 msgstr ""
@@ -40,9 +48,8 @@ msgstr "Id"
 msgid "Reported at"
 msgstr "Riportato"
 
-#, fuzzy
 msgid "Host name"
-msgstr "Host"
+msgstr "Hostname"
 
 msgid "OpenSCAP proxy name"
 msgstr ""
@@ -65,9 +72,8 @@ msgstr ""
 msgid "OpenSCAP proxy Id"
 msgstr ""
 
-#, fuzzy
 msgid "Policy Id"
-msgstr "Id"
+msgstr ""
 
 msgid "ARF report deleted"
 msgstr ""
@@ -90,9 +96,8 @@ msgstr ""
 msgid "Path to directory where downloaded file will be saved"
 msgstr ""
 
-#, fuzzy
 msgid "Profile Id"
-msgstr "Id"
+msgstr ""
 
 msgid "Content path"
 msgstr ""
@@ -214,21 +219,17 @@ msgstr ""
 msgid "Could not download the SCAP content file"
 msgstr ""
 
-#, fuzzy
 msgid "Scap Content Id"
-msgstr "Id"
+msgstr ""
 
-#, fuzzy
 msgid "Scap Content Title"
-msgstr "Titolo"
+msgstr ""
 
-#, fuzzy
 msgid "Tailoring File Id"
-msgstr "Id"
+msgstr ""
 
-#, fuzzy
 msgid "Tailoring File Name"
-msgstr "Nome"
+msgstr ""
 
 msgid "Tailoring file successfully created"
 msgstr ""
@@ -258,4 +259,82 @@ msgid "Tailoring file downloaded, saved to: "
 msgstr ""
 
 msgid "Could not download the Tailoring file"
+msgstr ""
+
+msgid "Manipulate OVAL contents"
+msgstr ""
+
+msgid "Manipulate OVAL policies"
+msgstr ""
+
+msgid "URL"
+msgstr ""
+
+msgid "Digest"
+msgstr ""
+
+msgid "OVAL Content has been deleted"
+msgstr ""
+
+msgid "Could not delete the OVAL content"
+msgstr ""
+
+msgid "OVAL Content successfully created"
+msgstr ""
+
+msgid "Failed to create OVAL content"
+msgstr ""
+
+msgid "OVAL content file"
+msgstr ""
+
+msgid "OVAL contents synced with remote sources"
+msgstr ""
+
+msgid "Could not sync OVAL contents"
+msgstr ""
+
+msgid "Full messages"
+msgstr ""
+
+msgid "OVAL content Id"
+msgstr ""
+
+msgid "OVAL policy has been deleted"
+msgstr ""
+
+msgid "Could not delete the OVAL policy"
+msgstr ""
+
+msgid "OVAL policy created"
+msgstr ""
+
+msgid "Could not create the OVAL policy"
+msgstr ""
+
+msgid "OVAL policy updated"
+msgstr ""
+
+msgid "Could not update the OVAL policy"
+msgstr ""
+
+msgid "Result"
+msgstr ""
+
+msgid "Error Message"
+msgstr ""
+
+msgid "Scap Contents uploaded."
+msgstr ""
+
+msgid "Could not upload Scap Contents"
+msgstr ""
+
+msgid "Errors"
+msgstr ""
+
+msgid "Uploaded Scap Contents"
+msgstr ""
+
+msgid "Original Filename"
 msgstr ""
