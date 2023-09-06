@@ -28,9 +28,22 @@ module HammerCLIForemanOpenscap
       success_message _('Scap Contents uploaded.')
       failure_message _('Could not upload Scap Contents')
 
+      def execute
+        d = send_request
+        any_errors = d['errors'].any?
+        if d['results'].any? || any_errors
+          d.delete('errors') unless any_errors
+          print_data(d)
+          return HammerCLI::EX_SOFTWARE if any_errors
+        else
+          print_success_message(d)
+        end
+        HammerCLI::EX_OK
+      end
+
       output do
-        field :errors, _('Errors'), Fields::List, :on_new_line => true, :separator => "\n"
-        collection :results, _('Uploaded Scap Contents') do
+        field :errors, _('Errors'), Fields::List, :on_new_line => true, :separator => "\n", :hide_blank => true
+        collection :results, _('Uploaded Scap Contents'), :hide_blank => true do
           field :id, _("Id")
           field :title, _("Title")
           field :original_filename, _("Original Filename")
