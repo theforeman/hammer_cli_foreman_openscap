@@ -4,18 +4,18 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 # Translators:
-# Giuseppe Pignataro <rogepix@gmail.com>, 2017
-# Bryan Kearney <bryan.kearney@gmail.com>, 2017
+# Giuseppe Pignataro (Fastbyte01) <rogepix@gmail.com>, 2017
 # 0868a4d1af5275b3f70b0a6dac4c99a4, 2020
+# Bryan Kearney <bryan.kearney@gmail.com>, 2023
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: hammer_cli_foreman_openscap 0.1.13\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-05-22 19:15+0530\n"
+"POT-Creation-Date: 2023-07-12 15:47+0000\n"
 "PO-Revision-Date: 2017-12-01 20:56+0000\n"
-"Last-Translator: 0868a4d1af5275b3f70b0a6dac4c99a4, 2020\n"
+"Last-Translator: Bryan Kearney <bryan.kearney@gmail.com>, 2023\n"
 "Language-Team: Italian (https://app.transifex.com/foreman/teams/114/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -40,6 +40,12 @@ msgid "Manipulate Scap Content Profiles"
 msgstr ""
 
 msgid "View policies ENC for host"
+msgstr ""
+
+msgid "Manipulate OVAL contents"
+msgstr ""
+
+msgid "Manipulate OVAL policies"
 msgstr ""
 
 msgid "Id"
@@ -135,8 +141,47 @@ msgstr "Nome per la ricerca"
 msgid "Name"
 msgstr "Nome"
 
+msgid "Original filename"
+msgstr ""
+
+msgid "URL"
+msgstr ""
+
 msgid "Created at"
 msgstr "Creato"
+
+msgid "Digest"
+msgstr ""
+
+msgid "OVAL Content has been deleted"
+msgstr ""
+
+msgid "Could not delete the OVAL content"
+msgstr ""
+
+msgid "OVAL Content successfully created"
+msgstr ""
+
+msgid "Failed to create OVAL content"
+msgstr ""
+
+msgid "OVAL content file"
+msgstr ""
+
+msgid "SCAP content updated"
+msgstr ""
+
+msgid "Could not update SCAP content"
+msgstr ""
+
+msgid "OVAL contents synced with remote sources"
+msgstr ""
+
+msgid "Could not sync OVAL contents"
+msgstr ""
+
+msgid "Full messages"
+msgstr ""
 
 msgid "Period"
 msgstr ""
@@ -145,6 +190,36 @@ msgid "Weekday"
 msgstr ""
 
 msgid "Cron line"
+msgstr ""
+
+msgid "OVAL content Id"
+msgstr ""
+
+msgid "OVAL policy has been deleted"
+msgstr ""
+
+msgid "Could not delete the OVAL policy"
+msgstr ""
+
+msgid "OVAL policy created"
+msgstr ""
+
+msgid "Could not create the OVAL policy"
+msgstr ""
+
+msgid "OVAL policy updated"
+msgstr ""
+
+msgid "Could not update the OVAL policy"
+msgstr ""
+
+msgid "Title"
+msgstr "Titolo"
+
+msgid "Result"
+msgstr "Risultato"
+
+msgid "Error Message"
 msgstr ""
 
 msgid "SCAP content Id"
@@ -180,9 +255,6 @@ msgstr ""
 msgid "Could not update the policy"
 msgstr ""
 
-msgid "Title"
-msgstr "Titolo"
-
 msgid "SCAP content successfully created"
 msgstr ""
 
@@ -192,25 +264,31 @@ msgstr ""
 msgid "SCAP content file"
 msgstr ""
 
+msgid "Scap Contents uploaded."
+msgstr ""
+
+msgid "Could not upload Scap Contents"
+msgstr ""
+
+msgid "Errors"
+msgstr ""
+
+msgid "Uploaded Scap Contents"
+msgstr ""
+
+msgid "Original Filename"
+msgstr ""
+
 msgid "SCAP content deleted"
 msgstr ""
 
 msgid "Could not delete SCAP content"
 msgstr ""
 
-msgid "Original filename"
-msgstr ""
-
 msgid "SCAP content profiles"
 msgstr ""
 
 msgid "Profile id"
-msgstr ""
-
-msgid "SCAP content updated"
-msgstr ""
-
-msgid "Could not update SCAP content"
 msgstr ""
 
 msgid "SCAP content file downloaded, saved to: "
@@ -259,82 +337,4 @@ msgid "Tailoring file downloaded, saved to: "
 msgstr ""
 
 msgid "Could not download the Tailoring file"
-msgstr ""
-
-msgid "Manipulate OVAL contents"
-msgstr ""
-
-msgid "Manipulate OVAL policies"
-msgstr ""
-
-msgid "URL"
-msgstr ""
-
-msgid "Digest"
-msgstr ""
-
-msgid "OVAL Content has been deleted"
-msgstr ""
-
-msgid "Could not delete the OVAL content"
-msgstr ""
-
-msgid "OVAL Content successfully created"
-msgstr ""
-
-msgid "Failed to create OVAL content"
-msgstr ""
-
-msgid "OVAL content file"
-msgstr ""
-
-msgid "OVAL contents synced with remote sources"
-msgstr ""
-
-msgid "Could not sync OVAL contents"
-msgstr ""
-
-msgid "Full messages"
-msgstr ""
-
-msgid "OVAL content Id"
-msgstr ""
-
-msgid "OVAL policy has been deleted"
-msgstr ""
-
-msgid "Could not delete the OVAL policy"
-msgstr ""
-
-msgid "OVAL policy created"
-msgstr ""
-
-msgid "Could not create the OVAL policy"
-msgstr ""
-
-msgid "OVAL policy updated"
-msgstr ""
-
-msgid "Could not update the OVAL policy"
-msgstr ""
-
-msgid "Result"
-msgstr ""
-
-msgid "Error Message"
-msgstr ""
-
-msgid "Scap Contents uploaded."
-msgstr ""
-
-msgid "Could not upload Scap Contents"
-msgstr ""
-
-msgid "Errors"
-msgstr ""
-
-msgid "Uploaded Scap Contents"
-msgstr ""
-
-msgid "Original Filename"
 msgstr ""

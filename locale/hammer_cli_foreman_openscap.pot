@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: hammer_cli_foreman_openscap 0.1.13\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-07-12 15:47+0000\n"
-"PO-Revision-Date: 2023-07-12 15:47+0000\n"
+"POT-Creation-Date: 2023-11-02 17:10+0000\n"
+"PO-Revision-Date: 2023-11-02 17:10+0000\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
@@ -57,8 +57,8 @@ msgstr ""
 #: ../lib/hammer_cli_foreman_openscap/oval_policy.rb:8
 #: ../lib/hammer_cli_foreman_openscap/policy.rb:8
 #: ../lib/hammer_cli_foreman_openscap/scap_content.rb:8
-#: ../lib/hammer_cli_foreman_openscap/scap_content.rb:34
-#: ../lib/hammer_cli_foreman_openscap/scap_content.rb:56
+#: ../lib/hammer_cli_foreman_openscap/scap_content.rb:47
+#: ../lib/hammer_cli_foreman_openscap/scap_content.rb:69
 #: ../lib/hammer_cli_foreman_openscap/scap_content_profile.rb:7
 #: ../lib/hammer_cli_foreman_openscap/tailoring_file.rb:8
 #: ../lib/hammer_cli_foreman_openscap/tailoring_file.rb:36
@@ -195,7 +195,7 @@ msgid "Name"
 msgstr ""
 
 #: ../lib/hammer_cli_foreman_openscap/oval_content.rb:9
-#: ../lib/hammer_cli_foreman_openscap/scap_content.rb:53
+#: ../lib/hammer_cli_foreman_openscap/scap_content.rb:66
 #: ../lib/hammer_cli_foreman_openscap/tailoring_file.rb:33
 msgid "Original filename"
 msgstr ""
@@ -207,7 +207,7 @@ msgstr ""
 #: ../lib/hammer_cli_foreman_openscap/oval_content.rb:18
 #: ../lib/hammer_cli_foreman_openscap/oval_policy.rb:10
 #: ../lib/hammer_cli_foreman_openscap/policy.rb:10
-#: ../lib/hammer_cli_foreman_openscap/scap_content.rb:52
+#: ../lib/hammer_cli_foreman_openscap/scap_content.rb:65
 #: ../lib/hammer_cli_foreman_openscap/tailoring_file.rb:32
 msgid "Created at"
 msgstr ""
@@ -239,12 +239,12 @@ msgid "OVAL content file"
 msgstr ""
 
 #: ../lib/hammer_cli_foreman_openscap/oval_content.rb:49
-#: ../lib/hammer_cli_foreman_openscap/scap_content.rb:66
+#: ../lib/hammer_cli_foreman_openscap/scap_content.rb:79
 msgid "SCAP content updated"
 msgstr ""
 
 #: ../lib/hammer_cli_foreman_openscap/oval_content.rb:50
-#: ../lib/hammer_cli_foreman_openscap/scap_content.rb:67
+#: ../lib/hammer_cli_foreman_openscap/scap_content.rb:80
 msgid "Could not update SCAP content"
 msgstr ""
 
@@ -306,8 +306,8 @@ msgstr ""
 #: ../lib/hammer_cli_foreman_openscap/oval_policy.rb:55
 #: ../lib/hammer_cli_foreman_openscap/oval_policy.rb:68
 #: ../lib/hammer_cli_foreman_openscap/scap_content.rb:9
-#: ../lib/hammer_cli_foreman_openscap/scap_content.rb:35
-#: ../lib/hammer_cli_foreman_openscap/scap_content.rb:58
+#: ../lib/hammer_cli_foreman_openscap/scap_content.rb:48
+#: ../lib/hammer_cli_foreman_openscap/scap_content.rb:71
 #: ../lib/hammer_cli_foreman_openscap/scap_content_profile.rb:8
 #: ../lib/hammer_cli_foreman_openscap/tailoring_file.rb:38
 msgid "Title"
@@ -376,7 +376,7 @@ msgid "Failed to create SCAP content"
 msgstr ""
 
 #: ../lib/hammer_cli_foreman_openscap/scap_content.rb:19
-#: ../lib/hammer_cli_foreman_openscap/scap_content.rb:69
+#: ../lib/hammer_cli_foreman_openscap/scap_content.rb:82
 msgid "SCAP content file"
 msgstr ""
 
@@ -388,40 +388,40 @@ msgstr ""
 msgid "Could not upload Scap Contents"
 msgstr ""
 
-#: ../lib/hammer_cli_foreman_openscap/scap_content.rb:32
+#: ../lib/hammer_cli_foreman_openscap/scap_content.rb:45
 msgid "Errors"
 msgstr ""
 
-#: ../lib/hammer_cli_foreman_openscap/scap_content.rb:33
+#: ../lib/hammer_cli_foreman_openscap/scap_content.rb:46
 msgid "Uploaded Scap Contents"
 msgstr ""
 
-#: ../lib/hammer_cli_foreman_openscap/scap_content.rb:36
+#: ../lib/hammer_cli_foreman_openscap/scap_content.rb:49
 msgid "Original Filename"
 msgstr ""
 
-#: ../lib/hammer_cli_foreman_openscap/scap_content.rb:44
+#: ../lib/hammer_cli_foreman_openscap/scap_content.rb:57
 msgid "SCAP content deleted"
 msgstr ""
 
-#: ../lib/hammer_cli_foreman_openscap/scap_content.rb:45
+#: ../lib/hammer_cli_foreman_openscap/scap_content.rb:58
 msgid "Could not delete SCAP content"
 msgstr ""
 
-#: ../lib/hammer_cli_foreman_openscap/scap_content.rb:55
+#: ../lib/hammer_cli_foreman_openscap/scap_content.rb:68
 msgid "SCAP content profiles"
 msgstr ""
 
-#: ../lib/hammer_cli_foreman_openscap/scap_content.rb:57
+#: ../lib/hammer_cli_foreman_openscap/scap_content.rb:70
 #: ../lib/hammer_cli_foreman_openscap/tailoring_file.rb:37
 msgid "Profile id"
 msgstr ""
 
-#: ../lib/hammer_cli_foreman_openscap/scap_content.rb:76
+#: ../lib/hammer_cli_foreman_openscap/scap_content.rb:89
 msgid "SCAP content file downloaded, saved to: "
 msgstr ""
 
-#: ../lib/hammer_cli_foreman_openscap/scap_content.rb:77
+#: ../lib/hammer_cli_foreman_openscap/scap_content.rb:90
 msgid "Could not download the SCAP content file"
 msgstr ""
 
