@@ -34,12 +34,6 @@ msgstr ""
 msgid "View policies ENC for host"
 msgstr ""
 
-msgid "Manipulate OVAL contents"
-msgstr ""
-
-msgid "Manipulate OVAL policies"
-msgstr ""
-
 msgid "Id"
 msgstr ""
 
@@ -134,46 +128,7 @@ msgstr ""
 msgid "Name"
 msgstr ""
 
-msgid "Original filename"
-msgstr ""
-
-msgid "URL"
-msgstr ""
-
 msgid "Created at"
-msgstr ""
-
-msgid "Digest"
-msgstr ""
-
-msgid "OVAL Content has been deleted"
-msgstr ""
-
-msgid "Could not delete the OVAL content"
-msgstr ""
-
-msgid "OVAL Content successfully created"
-msgstr ""
-
-msgid "Failed to create OVAL content"
-msgstr ""
-
-msgid "OVAL content file"
-msgstr ""
-
-msgid "SCAP content updated"
-msgstr ""
-
-msgid "Could not update SCAP content"
-msgstr ""
-
-msgid "OVAL contents synced with remote sources"
-msgstr ""
-
-msgid "Could not sync OVAL contents"
-msgstr ""
-
-msgid "Full messages"
 msgstr ""
 
 msgid "Period"
@@ -183,36 +138,6 @@ msgid "Weekday"
 msgstr ""
 
 msgid "Cron line"
-msgstr ""
-
-msgid "OVAL content Id"
-msgstr ""
-
-msgid "OVAL policy has been deleted"
-msgstr ""
-
-msgid "Could not delete the OVAL policy"
-msgstr ""
-
-msgid "OVAL policy created"
-msgstr ""
-
-msgid "Could not create the OVAL policy"
-msgstr ""
-
-msgid "OVAL policy updated"
-msgstr ""
-
-msgid "Could not update the OVAL policy"
-msgstr ""
-
-msgid "Title"
-msgstr ""
-
-msgid "Result"
-msgstr ""
-
-msgid "Error Message"
 msgstr ""
 
 msgid "SCAP content Id"
@@ -248,6 +173,12 @@ msgstr ""
 msgid "Could not update the policy"
 msgstr ""
 
+msgid "Title"
+msgstr ""
+
+msgid "Digest"
+msgstr ""
+
 msgid "SCAP content successfully created"
 msgstr ""
 
@@ -278,10 +209,19 @@ msgstr ""
 msgid "Could not delete SCAP content"
 msgstr ""
 
+msgid "Original filename"
+msgstr ""
+
 msgid "SCAP content profiles"
 msgstr ""
 
 msgid "Profile id"
+msgstr ""
+
+msgid "SCAP content updated"
+msgstr ""
+
+msgid "Could not update SCAP content"
 msgstr ""
 
 msgid "SCAP content file downloaded, saved to: "
