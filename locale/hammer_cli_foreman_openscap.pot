@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: hammer_cli_foreman_openscap 0.1.13\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-02 17:10+0000\n"
-"PO-Revision-Date: 2023-11-02 17:10+0000\n"
+"POT-Creation-Date: 2023-11-08 01:17+0000\n"
+"PO-Revision-Date: 2023-11-08 01:17+0000\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
@@ -18,43 +18,32 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 
-#: ../lib/hammer_cli_foreman_openscap.rb:21
+#: ../lib/hammer_cli_foreman_openscap.rb:19
 msgid "Manipulate compliance reports"
 msgstr ""
 
-#: ../lib/hammer_cli_foreman_openscap.rb:25
+#: ../lib/hammer_cli_foreman_openscap.rb:23
 msgid "Manipulate policies"
 msgstr ""
 
-#: ../lib/hammer_cli_foreman_openscap.rb:29
+#: ../lib/hammer_cli_foreman_openscap.rb:27
 msgid "Manipulate SCAP contents"
 msgstr ""
 
-#: ../lib/hammer_cli_foreman_openscap.rb:33
+#: ../lib/hammer_cli_foreman_openscap.rb:31
 msgid "Manipulate Tailoring files"
 msgstr ""
 
-#: ../lib/hammer_cli_foreman_openscap.rb:37
+#: ../lib/hammer_cli_foreman_openscap.rb:35
 msgid "Manipulate Scap Content Profiles"
 msgstr ""
 
-#: ../lib/hammer_cli_foreman_openscap.rb:41
+#: ../lib/hammer_cli_foreman_openscap.rb:39
 msgid "View policies ENC for host"
-msgstr ""
-
-#: ../lib/hammer_cli_foreman_openscap.rb:45
-msgid "Manipulate OVAL contents"
-msgstr ""
-
-#: ../lib/hammer_cli_foreman_openscap.rb:48
-msgid "Manipulate OVAL policies"
 msgstr ""
 
 #: ../lib/hammer_cli_foreman_openscap/arf_report.rb:8
 #: ../lib/hammer_cli_foreman_openscap/host.rb:13
-#: ../lib/hammer_cli_foreman_openscap/oval_content.rb:7
-#: ../lib/hammer_cli_foreman_openscap/oval_content.rb:70
-#: ../lib/hammer_cli_foreman_openscap/oval_policy.rb:8
 #: ../lib/hammer_cli_foreman_openscap/policy.rb:8
 #: ../lib/hammer_cli_foreman_openscap/scap_content.rb:8
 #: ../lib/hammer_cli_foreman_openscap/scap_content.rb:47
@@ -156,7 +145,6 @@ msgid "Tailoring download path"
 msgstr ""
 
 #: ../lib/hammer_cli_foreman_openscap/host.rb:19
-#: ../lib/hammer_cli_foreman_openscap/oval_policy.rb:19
 #: ../lib/hammer_cli_foreman_openscap/policy.rb:19
 msgid "Day of month"
 msgstr ""
@@ -186,141 +174,27 @@ msgstr ""
 msgid "Name to search by"
 msgstr ""
 
-#: ../lib/hammer_cli_foreman_openscap/oval_content.rb:8
-#: ../lib/hammer_cli_foreman_openscap/oval_content.rb:71
-#: ../lib/hammer_cli_foreman_openscap/oval_policy.rb:9
 #: ../lib/hammer_cli_foreman_openscap/policy.rb:9
 #: ../lib/hammer_cli_foreman_openscap/tailoring_file.rb:9
 msgid "Name"
 msgstr ""
 
-#: ../lib/hammer_cli_foreman_openscap/oval_content.rb:9
-#: ../lib/hammer_cli_foreman_openscap/scap_content.rb:66
-#: ../lib/hammer_cli_foreman_openscap/tailoring_file.rb:33
-msgid "Original filename"
-msgstr ""
-
-#: ../lib/hammer_cli_foreman_openscap/oval_content.rb:10
-msgid "URL"
-msgstr ""
-
-#: ../lib/hammer_cli_foreman_openscap/oval_content.rb:18
-#: ../lib/hammer_cli_foreman_openscap/oval_policy.rb:10
 #: ../lib/hammer_cli_foreman_openscap/policy.rb:10
 #: ../lib/hammer_cli_foreman_openscap/scap_content.rb:65
 #: ../lib/hammer_cli_foreman_openscap/tailoring_file.rb:32
 msgid "Created at"
 msgstr ""
 
-#: ../lib/hammer_cli_foreman_openscap/oval_content.rb:19
-#: ../lib/hammer_cli_foreman_openscap/scap_content.rb:10
-msgid "Digest"
-msgstr ""
-
-#: ../lib/hammer_cli_foreman_openscap/oval_content.rb:27
-msgid "OVAL Content has been deleted"
-msgstr ""
-
-#: ../lib/hammer_cli_foreman_openscap/oval_content.rb:28
-msgid "Could not delete the OVAL content"
-msgstr ""
-
-#: ../lib/hammer_cli_foreman_openscap/oval_content.rb:34
-msgid "OVAL Content successfully created"
-msgstr ""
-
-#: ../lib/hammer_cli_foreman_openscap/oval_content.rb:35
-msgid "Failed to create OVAL content"
-msgstr ""
-
-#: ../lib/hammer_cli_foreman_openscap/oval_content.rb:41
-#: ../lib/hammer_cli_foreman_openscap/oval_content.rb:56
-msgid "OVAL content file"
-msgstr ""
-
-#: ../lib/hammer_cli_foreman_openscap/oval_content.rb:49
-#: ../lib/hammer_cli_foreman_openscap/scap_content.rb:79
-msgid "SCAP content updated"
-msgstr ""
-
-#: ../lib/hammer_cli_foreman_openscap/oval_content.rb:50
-#: ../lib/hammer_cli_foreman_openscap/scap_content.rb:80
-msgid "Could not update SCAP content"
-msgstr ""
-
-#: ../lib/hammer_cli_foreman_openscap/oval_content.rb:66
-msgid "OVAL contents synced with remote sources"
-msgstr ""
-
-#: ../lib/hammer_cli_foreman_openscap/oval_content.rb:67
-msgid "Could not sync OVAL contents"
-msgstr ""
-
-#: ../lib/hammer_cli_foreman_openscap/oval_content.rb:72
-msgid "Full messages"
-msgstr ""
-
-#: ../lib/hammer_cli_foreman_openscap/oval_policy.rb:17
 #: ../lib/hammer_cli_foreman_openscap/policy.rb:17
 msgid "Period"
 msgstr ""
 
-#: ../lib/hammer_cli_foreman_openscap/oval_policy.rb:18
 #: ../lib/hammer_cli_foreman_openscap/policy.rb:18
 msgid "Weekday"
 msgstr ""
 
-#: ../lib/hammer_cli_foreman_openscap/oval_policy.rb:20
 #: ../lib/hammer_cli_foreman_openscap/policy.rb:20
 msgid "Cron line"
-msgstr ""
-
-#: ../lib/hammer_cli_foreman_openscap/oval_policy.rb:21
-msgid "OVAL content Id"
-msgstr ""
-
-#: ../lib/hammer_cli_foreman_openscap/oval_policy.rb:29
-msgid "OVAL policy has been deleted"
-msgstr ""
-
-#: ../lib/hammer_cli_foreman_openscap/oval_policy.rb:30
-msgid "Could not delete the OVAL policy"
-msgstr ""
-
-#: ../lib/hammer_cli_foreman_openscap/oval_policy.rb:36
-msgid "OVAL policy created"
-msgstr ""
-
-#: ../lib/hammer_cli_foreman_openscap/oval_policy.rb:37
-msgid "Could not create the OVAL policy"
-msgstr ""
-
-#: ../lib/hammer_cli_foreman_openscap/oval_policy.rb:44
-msgid "OVAL policy updated"
-msgstr ""
-
-#: ../lib/hammer_cli_foreman_openscap/oval_policy.rb:45
-msgid "Could not update the OVAL policy"
-msgstr ""
-
-#: ../lib/hammer_cli_foreman_openscap/oval_policy.rb:55
-#: ../lib/hammer_cli_foreman_openscap/oval_policy.rb:68
-#: ../lib/hammer_cli_foreman_openscap/scap_content.rb:9
-#: ../lib/hammer_cli_foreman_openscap/scap_content.rb:48
-#: ../lib/hammer_cli_foreman_openscap/scap_content.rb:71
-#: ../lib/hammer_cli_foreman_openscap/scap_content_profile.rb:8
-#: ../lib/hammer_cli_foreman_openscap/tailoring_file.rb:38
-msgid "Title"
-msgstr ""
-
-#: ../lib/hammer_cli_foreman_openscap/oval_policy.rb:56
-#: ../lib/hammer_cli_foreman_openscap/oval_policy.rb:69
-msgid "Result"
-msgstr ""
-
-#: ../lib/hammer_cli_foreman_openscap/oval_policy.rb:57
-#: ../lib/hammer_cli_foreman_openscap/oval_policy.rb:70
-msgid "Error Message"
 msgstr ""
 
 #: ../lib/hammer_cli_foreman_openscap/policy.rb:21
@@ -367,6 +241,18 @@ msgstr ""
 msgid "Could not update the policy"
 msgstr ""
 
+#: ../lib/hammer_cli_foreman_openscap/scap_content.rb:9
+#: ../lib/hammer_cli_foreman_openscap/scap_content.rb:48
+#: ../lib/hammer_cli_foreman_openscap/scap_content.rb:71
+#: ../lib/hammer_cli_foreman_openscap/scap_content_profile.rb:8
+#: ../lib/hammer_cli_foreman_openscap/tailoring_file.rb:38
+msgid "Title"
+msgstr ""
+
+#: ../lib/hammer_cli_foreman_openscap/scap_content.rb:10
+msgid "Digest"
+msgstr ""
+
 #: ../lib/hammer_cli_foreman_openscap/scap_content.rb:16
 msgid "SCAP content successfully created"
 msgstr ""
@@ -408,6 +294,11 @@ msgstr ""
 msgid "Could not delete SCAP content"
 msgstr ""
 
+#: ../lib/hammer_cli_foreman_openscap/scap_content.rb:66
+#: ../lib/hammer_cli_foreman_openscap/tailoring_file.rb:33
+msgid "Original filename"
+msgstr ""
+
 #: ../lib/hammer_cli_foreman_openscap/scap_content.rb:68
 msgid "SCAP content profiles"
 msgstr ""
@@ -415,6 +306,14 @@ msgstr ""
 #: ../lib/hammer_cli_foreman_openscap/scap_content.rb:70
 #: ../lib/hammer_cli_foreman_openscap/tailoring_file.rb:37
 msgid "Profile id"
+msgstr ""
+
+#: ../lib/hammer_cli_foreman_openscap/scap_content.rb:79
+msgid "SCAP content updated"
+msgstr ""
+
+#: ../lib/hammer_cli_foreman_openscap/scap_content.rb:80
+msgid "Could not update SCAP content"
 msgstr ""
 
 #: ../lib/hammer_cli_foreman_openscap/scap_content.rb:89
