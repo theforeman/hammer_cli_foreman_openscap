@@ -15,7 +15,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: hammer_cli_foreman_openscap 0.1.13\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-02 17:10+0000\n"
+"POT-Creation-Date: 2023-11-08 01:17+0000\n"
 "PO-Revision-Date: 2017-12-01 20:56+0000\n"
 "Last-Translator: Bryan Kearney <bryan.kearney@gmail.com>, 2023\n"
 "Language-Team: Japanese (https://app.transifex.com/foreman/teams/114/ja/)\n"
@@ -42,12 +42,6 @@ msgstr "SCAP コンテンツプロファイルを操作します。"
 
 msgid "View policies ENC for host"
 msgstr "ホストのポリシー ENC を表示します。"
-
-msgid "Manipulate OVAL contents"
-msgstr ""
-
-msgid "Manipulate OVAL policies"
-msgstr ""
 
 msgid "Id"
 msgstr "ID"
@@ -142,47 +136,8 @@ msgstr "検索する名前"
 msgid "Name"
 msgstr "名前"
 
-msgid "Original filename"
-msgstr "オリジナルのファイル名"
-
-msgid "URL"
-msgstr ""
-
 msgid "Created at"
 msgstr "作成:"
-
-msgid "Digest"
-msgstr "ダイジェスト"
-
-msgid "OVAL Content has been deleted"
-msgstr ""
-
-msgid "Could not delete the OVAL content"
-msgstr ""
-
-msgid "OVAL Content successfully created"
-msgstr ""
-
-msgid "Failed to create OVAL content"
-msgstr ""
-
-msgid "OVAL content file"
-msgstr ""
-
-msgid "SCAP content updated"
-msgstr "SCAP コンテンツが更新されました"
-
-msgid "Could not update SCAP content"
-msgstr "SCAP コンテンツを更新できませんでした"
-
-msgid "OVAL contents synced with remote sources"
-msgstr ""
-
-msgid "Could not sync OVAL contents"
-msgstr ""
-
-msgid "Full messages"
-msgstr ""
 
 msgid "Period"
 msgstr "期間"
@@ -192,36 +147,6 @@ msgstr "平日"
 
 msgid "Cron line"
 msgstr "cron 行"
-
-msgid "OVAL content Id"
-msgstr ""
-
-msgid "OVAL policy has been deleted"
-msgstr ""
-
-msgid "Could not delete the OVAL policy"
-msgstr ""
-
-msgid "OVAL policy created"
-msgstr ""
-
-msgid "Could not create the OVAL policy"
-msgstr ""
-
-msgid "OVAL policy updated"
-msgstr ""
-
-msgid "Could not update the OVAL policy"
-msgstr ""
-
-msgid "Title"
-msgstr "タイトル"
-
-msgid "Result"
-msgstr "結果"
-
-msgid "Error Message"
-msgstr ""
 
 msgid "SCAP content Id"
 msgstr "SCAP コンテンツ ID"
@@ -256,6 +181,12 @@ msgstr "ポリシーが更新されました"
 msgid "Could not update the policy"
 msgstr "ポリシーを更新できませんでした"
 
+msgid "Title"
+msgstr "タイトル"
+
+msgid "Digest"
+msgstr "ダイジェスト"
+
 msgid "SCAP content successfully created"
 msgstr "SCAP コンテンツが正常に作成されました"
 
@@ -286,11 +217,20 @@ msgstr "SCAP コンテンツが削除されました"
 msgid "Could not delete SCAP content"
 msgstr "SCAP のコンテンツを削除できませんでした"
 
+msgid "Original filename"
+msgstr "オリジナルのファイル名"
+
 msgid "SCAP content profiles"
 msgstr "SCAP コンテンツプロファイル"
 
 msgid "Profile id"
 msgstr "プロファイル ID"
+
+msgid "SCAP content updated"
+msgstr "SCAP コンテンツが更新されました"
+
+msgid "Could not update SCAP content"
+msgstr "SCAP コンテンツを更新できませんでした"
 
 msgid "SCAP content file downloaded, saved to: "
 msgstr "SCAP コンテンツファイルがダウンロードされ、次の場所に保存されました: "

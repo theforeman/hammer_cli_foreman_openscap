@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: hammer_cli_foreman_openscap 0.1.13\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-02 17:10+0000\n"
+"POT-Creation-Date: 2023-11-08 01:17+0000\n"
 "PO-Revision-Date: 2017-12-01 20:56+0000\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>, 2023\n"
 "Language-Team: Georgian (https://app.transifex.com/foreman/teams/114/ka/)\n"
@@ -38,12 +38,6 @@ msgstr "SCAP შემცველობის პროფილების �
 
 msgid "View policies ENC for host"
 msgstr "ჰოსტის ENC წესების ნახვა"
-
-msgid "Manipulate OVAL contents"
-msgstr "OVAL-ის შემცველობის შეცვლა"
-
-msgid "Manipulate OVAL policies"
-msgstr "OVAL-ის პოლიტიკების შეცვლა"
 
 msgid "Id"
 msgstr "ID"
@@ -138,47 +132,8 @@ msgstr "სახელით ძებნა"
 msgid "Name"
 msgstr "სახელი"
 
-msgid "Original filename"
-msgstr "ფაილის საწყისი სახელი"
-
-msgid "URL"
-msgstr "URL"
-
 msgid "Created at"
 msgstr "შექმნის დრო"
-
-msgid "Digest"
-msgstr "დაიჯესტი"
-
-msgid "OVAL Content has been deleted"
-msgstr "OVAL-ის შემცველობა წაიშალა"
-
-msgid "Could not delete the OVAL content"
-msgstr "OVAL-ის შემცველობის წაშლა შეუძლებელია"
-
-msgid "OVAL Content successfully created"
-msgstr "OVAL-ის შემცველობა წარმატებით შეიქმნა"
-
-msgid "Failed to create OVAL content"
-msgstr "OVAL-ს შემცველობის შექმნა შეუძლებელია"
-
-msgid "OVAL content file"
-msgstr "OVAL-ის შემცველობის ფაილი"
-
-msgid "SCAP content updated"
-msgstr "SCAP შემცველობა განახლდა"
-
-msgid "Could not update SCAP content"
-msgstr "SCAP შემცველობის განახლების შეცდომა"
-
-msgid "OVAL contents synced with remote sources"
-msgstr "OVAL-ის შემცველობა დაშორებულ წყაროსთან სინქრონიზდება"
-
-msgid "Could not sync OVAL contents"
-msgstr "OVAL-ის შემცველობის სინქრონიზაციის შეცდომა"
-
-msgid "Full messages"
-msgstr "სრული შეტყობინებები"
 
 msgid "Period"
 msgstr "პერიოდი"
@@ -188,36 +143,6 @@ msgstr "კვირის დღე"
 
 msgid "Cron line"
 msgstr "Cron-ის სტრიქონი"
-
-msgid "OVAL content Id"
-msgstr "OVAL-ის შემცველობის ID"
-
-msgid "OVAL policy has been deleted"
-msgstr "OVAL-ის წესი წაიშალა"
-
-msgid "Could not delete the OVAL policy"
-msgstr "OVAL-ის წესის წაშლის შეცდომა"
-
-msgid "OVAL policy created"
-msgstr "OVAL-ის წესი შეიქმნა"
-
-msgid "Could not create the OVAL policy"
-msgstr "OVAL-ის წესის შექნის შეცდომა"
-
-msgid "OVAL policy updated"
-msgstr "OVAL-ის წესი განახლდა"
-
-msgid "Could not update the OVAL policy"
-msgstr "OVAL-ის წესის განახლების შეცდომა"
-
-msgid "Title"
-msgstr "სათაური"
-
-msgid "Result"
-msgstr "შედეგი"
-
-msgid "Error Message"
-msgstr "შეცდომის შეტყობინება"
 
 msgid "SCAP content Id"
 msgstr "SCAP შემცველობის ID"
@@ -252,6 +177,12 @@ msgstr "წესი განახლდა"
 msgid "Could not update the policy"
 msgstr "წესის განახლების შეცდომა"
 
+msgid "Title"
+msgstr "სათაური"
+
+msgid "Digest"
+msgstr "დაიჯესტი"
+
 msgid "SCAP content successfully created"
 msgstr "SCAP შემცველობის წარმატებით შეიქმნა"
 
@@ -282,11 +213,20 @@ msgstr "SCAP შემცველობა წაშლილია"
 msgid "Could not delete SCAP content"
 msgstr "SCAP შემცველობის წაშლის შეცდომა"
 
+msgid "Original filename"
+msgstr "ფაილის საწყისი სახელი"
+
 msgid "SCAP content profiles"
 msgstr "SCAP შემცველობის პროფილები"
 
 msgid "Profile id"
 msgstr "პროფილის ID"
+
+msgid "SCAP content updated"
+msgstr "SCAP შემცველობა განახლდა"
+
+msgid "Could not update SCAP content"
+msgstr "SCAP შემცველობის განახლების შეცდომა"
 
 msgid "SCAP content file downloaded, saved to: "
 msgstr "შესაბამისობის ფაილი გადმოწერილია. შენახულია: "

@@ -5,22 +5,22 @@
 #
 # Translators:
 # Wiederoder <stefanwiederoder@googlemail.com>, 2017
+# Ettore Atalan <atalanttore@googlemail.com>, 2017
 # simon11 <transifex@stieger.co>, 2017
 # Bryan Kearney <bryan.kearney@gmail.com>, 2017
 # 0868a4d1af5275b3f70b0a6dac4c99a4, 2017
 # mbacovsky <martin.bacovsky@gmail.com>, 2020
 # Crited <Alexander.Stoll@netways.de>, 2020
 # pdolinic, 2023
-# Ettore Atalan <atalanttore@googlemail.com>, 2023
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: hammer_cli_foreman_openscap 0.1.13\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-02 17:10+0000\n"
+"POT-Creation-Date: 2023-11-08 01:17+0000\n"
 "PO-Revision-Date: 2017-12-01 20:56+0000\n"
-"Last-Translator: Ettore Atalan <atalanttore@googlemail.com>, 2023\n"
+"Last-Translator: pdolinic, 2023\n"
 "Language-Team: German (https://app.transifex.com/foreman/teams/114/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -45,12 +45,6 @@ msgstr "Scap-Inhaltsprofile manipulieren"
 
 msgid "View policies ENC for host"
 msgstr "Richtlinien ENC für Host anzeigen"
-
-msgid "Manipulate OVAL contents"
-msgstr ""
-
-msgid "Manipulate OVAL policies"
-msgstr ""
 
 msgid "Id"
 msgstr "ID"
@@ -146,47 +140,8 @@ msgstr "Zu suchender Name"
 msgid "Name"
 msgstr "Name"
 
-msgid "Original filename"
-msgstr "Ursprünglicher Dateiname"
-
-msgid "URL"
-msgstr ""
-
 msgid "Created at"
 msgstr "Erstellt um"
-
-msgid "Digest"
-msgstr "Digest"
-
-msgid "OVAL Content has been deleted"
-msgstr ""
-
-msgid "Could not delete the OVAL content"
-msgstr ""
-
-msgid "OVAL Content successfully created"
-msgstr ""
-
-msgid "Failed to create OVAL content"
-msgstr ""
-
-msgid "OVAL content file"
-msgstr ""
-
-msgid "SCAP content updated"
-msgstr "SCAP-Inhalte aktualisiert"
-
-msgid "Could not update SCAP content"
-msgstr "SCAP-Inhalt konnte nicht aktualisiert werden"
-
-msgid "OVAL contents synced with remote sources"
-msgstr ""
-
-msgid "Could not sync OVAL contents"
-msgstr ""
-
-msgid "Full messages"
-msgstr ""
 
 msgid "Period"
 msgstr "Zeitraum"
@@ -196,36 +151,6 @@ msgstr "Wochentag"
 
 msgid "Cron line"
 msgstr "Cron-Zeile"
-
-msgid "OVAL content Id"
-msgstr ""
-
-msgid "OVAL policy has been deleted"
-msgstr ""
-
-msgid "Could not delete the OVAL policy"
-msgstr ""
-
-msgid "OVAL policy created"
-msgstr ""
-
-msgid "Could not create the OVAL policy"
-msgstr ""
-
-msgid "OVAL policy updated"
-msgstr ""
-
-msgid "Could not update the OVAL policy"
-msgstr ""
-
-msgid "Title"
-msgstr "Titel"
-
-msgid "Result"
-msgstr "Ergebnis"
-
-msgid "Error Message"
-msgstr ""
 
 msgid "SCAP content Id"
 msgstr "SCAP-Inhaltskennung"
@@ -260,6 +185,12 @@ msgstr "Richtlinie aktualisiert"
 msgid "Could not update the policy"
 msgstr "Richtlinie konnte nicht aktualisiert werden"
 
+msgid "Title"
+msgstr "Titel"
+
+msgid "Digest"
+msgstr "Digest"
+
 msgid "SCAP content successfully created"
 msgstr "SCAP-Inhalt erfolgreich erstellt"
 
@@ -290,11 +221,20 @@ msgstr "SCAP-Inhalt gelöscht"
 msgid "Could not delete SCAP content"
 msgstr "SCAP-Inhalt konnte nicht gelöscht werden"
 
+msgid "Original filename"
+msgstr "Ursprünglicher Dateiname"
+
 msgid "SCAP content profiles"
 msgstr "SCAP-Inhaltsprofile"
 
 msgid "Profile id"
 msgstr "Profil-Kennung"
+
+msgid "SCAP content updated"
+msgstr "SCAP-Inhalte aktualisiert"
+
+msgid "Could not update SCAP content"
+msgstr "SCAP-Inhalt konnte nicht aktualisiert werden"
 
 msgid "SCAP content file downloaded, saved to: "
 msgstr "SCAP-Inhaltsdatei heruntergeladen, gespeichert unter:"

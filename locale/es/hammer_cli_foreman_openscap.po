@@ -16,7 +16,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: hammer_cli_foreman_openscap 0.1.13\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-02 17:10+0000\n"
+"POT-Creation-Date: 2023-11-08 01:17+0000\n"
 "PO-Revision-Date: 2017-12-01 20:56+0000\n"
 "Last-Translator: Amit Upadhye <aupadhye@redhat.com>, 2023\n"
 "Language-Team: Spanish (https://app.transifex.com/foreman/teams/114/es/)\n"
@@ -44,12 +44,6 @@ msgstr "Manipular perfiles de contenido Scap"
 
 msgid "View policies ENC for host"
 msgstr "Ver políticas ENC para el anfitrión"
-
-msgid "Manipulate OVAL contents"
-msgstr ""
-
-msgid "Manipulate OVAL policies"
-msgstr ""
 
 msgid "Id"
 msgstr "ID"
@@ -144,47 +138,8 @@ msgstr "Nombre a buscar"
 msgid "Name"
 msgstr "Nombre"
 
-msgid "Original filename"
-msgstr "Nombre de archivo original"
-
-msgid "URL"
-msgstr ""
-
 msgid "Created at"
 msgstr "Creado"
-
-msgid "Digest"
-msgstr "Digerir"
-
-msgid "OVAL Content has been deleted"
-msgstr ""
-
-msgid "Could not delete the OVAL content"
-msgstr ""
-
-msgid "OVAL Content successfully created"
-msgstr ""
-
-msgid "Failed to create OVAL content"
-msgstr ""
-
-msgid "OVAL content file"
-msgstr ""
-
-msgid "SCAP content updated"
-msgstr "Contenido de SCAP actualizado"
-
-msgid "Could not update SCAP content"
-msgstr "No se pudo actualizar el contenido de SCAP"
-
-msgid "OVAL contents synced with remote sources"
-msgstr ""
-
-msgid "Could not sync OVAL contents"
-msgstr ""
-
-msgid "Full messages"
-msgstr ""
 
 msgid "Period"
 msgstr "Periodo"
@@ -194,36 +149,6 @@ msgstr "Día de la semana"
 
 msgid "Cron line"
 msgstr "Línea Cron"
-
-msgid "OVAL content Id"
-msgstr ""
-
-msgid "OVAL policy has been deleted"
-msgstr ""
-
-msgid "Could not delete the OVAL policy"
-msgstr ""
-
-msgid "OVAL policy created"
-msgstr ""
-
-msgid "Could not create the OVAL policy"
-msgstr ""
-
-msgid "OVAL policy updated"
-msgstr ""
-
-msgid "Could not update the OVAL policy"
-msgstr ""
-
-msgid "Title"
-msgstr "Título"
-
-msgid "Result"
-msgstr "Resultado:"
-
-msgid "Error Message"
-msgstr ""
 
 msgid "SCAP content Id"
 msgstr "Id de contenido de SCAP"
@@ -258,6 +183,12 @@ msgstr "Política actualizada"
 msgid "Could not update the policy"
 msgstr "No se pudo actualizar la política"
 
+msgid "Title"
+msgstr "Título"
+
+msgid "Digest"
+msgstr "Digerir"
+
 msgid "SCAP content successfully created"
 msgstr "Contenido de SCAP creado correctamente"
 
@@ -288,11 +219,20 @@ msgstr "Contenido de SCAP eliminado"
 msgid "Could not delete SCAP content"
 msgstr "No se pudo eliminar el contenido de SCAP"
 
+msgid "Original filename"
+msgstr "Nombre de archivo original"
+
 msgid "SCAP content profiles"
 msgstr "Perfiles de contenido de SCAP"
 
 msgid "Profile id"
 msgstr "Id de perfil"
+
+msgid "SCAP content updated"
+msgstr "Contenido de SCAP actualizado"
+
+msgid "Could not update SCAP content"
+msgstr "No se pudo actualizar el contenido de SCAP"
 
 msgid "SCAP content file downloaded, saved to: "
 msgstr "Archivo de contenido de SCAP descargado y guardado en:"
