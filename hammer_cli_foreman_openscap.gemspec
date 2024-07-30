@@ -12,6 +12,7 @@ Gem::Specification.new do |s|
   s.files = Dir['{lib,config,locale}/**/*', 'LICENSE', 'README.md']
   s.require_paths = ["lib"]
   s.test_files = Dir["test/**/*"]
+  s.homepage = 'https://github.com/theforeman/hammer_cli_foreman_openscap'
 
   s.add_dependency 'hammer_cli_foreman', '>= 0.19', '< 4.0'
 end
