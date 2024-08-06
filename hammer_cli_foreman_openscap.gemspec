@@ -15,4 +15,6 @@ Gem::Specification.new do |s|
   s.homepage = 'https://github.com/theforeman/hammer_cli_foreman_openscap'
 
   s.add_dependency 'hammer_cli_foreman', '>= 0.19', '< 4.0'
+
+  s.required_ruby_version = '>= 2.7', '< 4'
 end
