@@ -4,10 +4,10 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 # Translators:
+# 0868a4d1af5275b3f70b0a6dac4c99a4, 2017
 # Bryan Kearney <bryan.kearney@gmail.com>, 2017
-# 0868a4d1af5275b3f70b0a6dac4c99a4, 2020
 # 진선재, 2023
-# Ewoud Kohl van Wijngaarden <ewoud+transifex@kohlvanwijngaarden.nl>, 2024
+# Ewoud Kohl van Wijngaarden <ewoud+transifex@kohlvanwijngaarden.nl>, 2025
 #
 #, fuzzy
 msgid ""
@@ -17,7 +17,7 @@ msgstr ""
 "POT-Creation-Date: 2024-07-10 14:36+0000\n"
 "PO-Revision-Date: 2017-12-01 20:56+0000\n"
 "Last-Translator: Ewoud Kohl van Wijngaarden "
-"<ewoud+transifex@kohlvanwijngaarden.nl>, 2024\n"
+"<ewoud+transifex@kohlvanwijngaarden.nl>, 2025\n"
 "Language-Team: Korean (https://app.transifex.com/foreman/teams/114/ko/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -44,13 +44,13 @@ msgid "View policies ENC for host"
 msgstr "호스트에 대한 정책 ENC 보기"
 
 msgid "Id"
-msgstr "ID "
+msgstr "ID"
 
 msgid "Reported at"
-msgstr "보고 "
+msgstr "보고된 위치"
 
 msgid "Host name"
-msgstr "호스트 이름 "
+msgstr "호스트 이름"
 
 msgid "OpenSCAP proxy name"
 msgstr "OpenSCAP 프록시 이름"
@@ -134,7 +134,7 @@ msgid "Name to search by"
 msgstr "검색할 이름 "
 
 msgid "Name"
-msgstr "이름"
+msgstr "이름 "
 
 msgid "Created at"
 msgstr "생성 일시 "

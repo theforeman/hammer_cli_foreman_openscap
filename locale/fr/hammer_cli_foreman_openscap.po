@@ -7,7 +7,7 @@
 # Claer <transiblu@claer.hammock.fr>, 2020
 # Amit Upadhye <aupadhye@redhat.com>, 2023
 # Bryan Kearney <bryan.kearney@gmail.com>, 2023
-# Ewoud Kohl van Wijngaarden <ewoud+transifex@kohlvanwijngaarden.nl>, 2024
+# Ewoud Kohl van Wijngaarden <ewoud+transifex@kohlvanwijngaarden.nl>, 2025
 #
 #, fuzzy
 msgid ""
@@ -17,7 +17,7 @@ msgstr ""
 "POT-Creation-Date: 2024-07-10 14:36+0000\n"
 "PO-Revision-Date: 2017-12-01 20:56+0000\n"
 "Last-Translator: Ewoud Kohl van Wijngaarden "
-"<ewoud+transifex@kohlvanwijngaarden.nl>, 2024\n"
+"<ewoud+transifex@kohlvanwijngaarden.nl>, 2025\n"
 "Language-Team: French (https://app.transifex.com/foreman/teams/114/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -234,7 +234,7 @@ msgid "Could not update SCAP content"
 msgstr "Impossible de mettre à jour le contenu SCAP"
 
 msgid "SCAP content file downloaded, saved to: "
-msgstr "Fichier du contenu SCAP téléchargé, enregistré sur :"
+msgstr "Fichier du contenu SCAP téléchargé, enregistré sur : "
 
 msgid "Could not download the SCAP content file"
 msgstr "Impossible de télécharger le fichier du contenu SCAP"
@@ -276,7 +276,7 @@ msgid "Could not update Tailoring file"
 msgstr "Impossible de mettre à jour le fichier de personnalisation"
 
 msgid "Tailoring file downloaded, saved to: "
-msgstr "Fichier de personnalisation téléchargé, enregistré sur :"
+msgstr "Fichier de personnalisation téléchargé, enregistré sur : "
 
 msgid "Could not download the Tailoring file"
 msgstr "Impossible de télécharger le fichier de personnalisation"
