@@ -4,7 +4,7 @@ gemspec
 
 group :test do
   gem 'rake'
-  gem 'minitest', '5.18'
+  gem 'minitest', '~> 5.18'
   gem 'minitest-spec-context'
   gem 'mocha', '~> 1.11.0'
   gem 'simplecov'
