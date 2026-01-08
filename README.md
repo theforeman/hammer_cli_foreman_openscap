@@ -71,4 +71,6 @@ Extension module hammer_cli_foreman_openscap (version) loaded
 If you see no errors, you should be good to go.
 
 
+## Release
 
+Please refer to [RELEASE.md](RELEASE.md)
