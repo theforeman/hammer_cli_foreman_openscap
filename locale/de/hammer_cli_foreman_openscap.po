@@ -10,13 +10,13 @@
 # Bryan Kearney <bryan.kearney@gmail.com>, 2017
 # 0868a4d1af5275b3f70b0a6dac4c99a4, 2017
 # mbacovsky <martin.bacovsky@gmail.com>, 2020
-# Crited <Alexander.Stoll@netways.de>, 2020
+# Alexander Stoll <Alexander.Stoll@netways.de>, 2020
 # pdolinic, 2023
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: hammer_cli_foreman_openscap 0.2.2\n"
+"Project-Id-Version: hammer_cli_foreman_openscap 0.2.3\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-10 14:36+0000\n"
 "PO-Revision-Date: 2017-12-01 20:56+0000\n"
